@@ -1,3 +1,4 @@
+# Assignment1
 
 This is [Assignemnt 1](https://github.com/visualizedata/data-structures/blob/master/weekly_assignment_01.md) for Data Structures. Goal: Using Node.JS on AWS command line, request ten AA meeting locations in Manhattan and save them in local environment as text files. 
 Techniques used: 
@@ -63,7 +64,7 @@ Things to keep in mind:
 
   
 =======
-# DS_Assignment2
+# Assignment2
 
 This is [Assignment 2](https://github.com/visualizedata/data-structures/blob/master/weekly_assignment_02.md) for Data Structures. The goal is to use Node.js to extract important information such as addresses from the text files (a single text file for this week) and store them in an organized and accessible way for later use. 
 We need two dependencies: 
