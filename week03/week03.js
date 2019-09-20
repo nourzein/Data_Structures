@@ -12,7 +12,7 @@ const apiKey = process.env.API_KEY;
 // geocode addresses
 var meetingsData = [];
 var addresses = require("./week02/results.json");
-console.log(addresses[0]);
+console.log(addresses[0]); //. to check that the require function worked
 
 
 
@@ -41,8 +41,8 @@ setTimeout(callback, 2000);
 
 function() {
     fs.writeFileSync('AA06.json', JSON.stringify(meetingsData));
-    console.log('*** *** *** *** ***');
+    console.log('*** *** *** *** ***'); // simply to see theoutput well
     console.log('Number of meetings in this zone: ');
-    console.log(meetingsData.length);
+    console.log(meetingsData.length); // see how many meetings were done
 });
  
