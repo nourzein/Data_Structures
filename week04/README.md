@@ -8,7 +8,7 @@ Create a database and create a table inside the database for addresses of AA mee
 I broke down my information into three boxes, the highest in the hierarchy is "address location", then we have "meeting name", and then "meeting information".
 It seemed like an intiutive way, I just followed the breakdown of data in the actual web page itself.
 
-## Part2: 
+## Part 2: 
 We create tables in this section in the database that we already set up in AWS. 
 An environmental variable is again used to hide the local host and password. --> load the dependecy for this again.
 Specify the type of data being loaded: for street address, we use varchar(100)- we do not need more space, and for lat and long we use double percision instead of integer to avoid rounding.
@@ -43,7 +43,7 @@ Specify the type of data being loaded: for street address, we use varchar(100)- 
         client.end();
     });
 
-## Part3:
+## Part 3:
 In this section we add data into our table using "INSERT INTO" query. This data comes from the week03 json file. 
 
     const { Client } = require('pg');
@@ -80,7 +80,7 @@ In this section we add data into our table using "INSERT INTO" query. This data 
         setTimeout(callback, 1000); 
     }); 
 
-## Part4:
+## Part 4:
 Check to see if the data created tables :
 
     const { Client } = require('pg');
