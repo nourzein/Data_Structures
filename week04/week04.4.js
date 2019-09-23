@@ -1,7 +1,4 @@
-// load dependencies
 const { Client } = require('pg');
-const dotenv = require('dotenv');
-dotenv.config();
 
 // AWS RDS POSTGRESQL INSTANCE
 var db_credentials = new Object();
@@ -16,15 +13,11 @@ const client = new Client(db_credentials);
 client.connect();
 console.log(client);
 
-// Sample SQL statement to create a table: 
-
-var thisQuery = "CREATE TABLE aalocations (address varchar(100), lat double precision, long double precision);";
-
-
-// Sample SQL statement to delete a table:
-// var thisQuery = "DROP TABLE aalocations;"; 
+// Sample SQL statement to query the entire contents of a table: 
+var thisQuery = "SELECT * FROM aalocations;";
 
 client.query(thisQuery, (err, res) => {
     console.log(err, res);
     client.end();
 });
+
