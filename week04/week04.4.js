@@ -22,4 +22,3 @@ client.query(thisQuery, (err, res) => {
     console.log(err, res);
     client.end();
 });
-
