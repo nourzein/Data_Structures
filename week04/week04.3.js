@@ -1,5 +1,3 @@
-
-
 // load in dependencies
 const { Client } = require('pg');
 var async = require('async');
@@ -8,11 +6,6 @@ const fs= require('fs')
 //load in enviromental variable module
 const dotenv = require('dotenv');
 dotenv.config();
-
-
-
-
-
 
 // create instance aalocations
 var db_credentials = new Object();
