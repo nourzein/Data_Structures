@@ -12,7 +12,7 @@ var params = {
         "#tp" : "topic"
     },
     ExpressionAttributeValues: { // the query values
-        ":topicName": {S: "Homework"},
+        ":topicName": {S: "Data Structures Homework"},
         ":minDate": {S: new Date("September 26 2019").valueOf().toString()},
         ":maxDate": {S: new Date("September 28 2019").valueOf().toString()}
     }
