@@ -7,11 +7,11 @@ var dynamodb = new AWS.DynamoDB();
 var blogEntries = [];
 
 class BlogEntry {
-  constructor(partitionKey, date, entry) {
+  constructor(partitionKey, dt, entry) {
     this.topic = {};
     this.topic.S = partitionKey;
-    this.date = {}; 
-    this.date.S = new Date(date).toDateString(); 
+    this.dt = {}; 
+    this.dt.S = new Date(dt).toDateString(); 
     this.entry = {};
     this.entry.S = entry;
   }
