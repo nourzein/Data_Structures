@@ -11,7 +11,7 @@ class BlogEntry {
     this.topic = {};
     this.topic.S = partitionKey;
     this.dt = {}; 
-    this.dt.S = new Date(dt).toDateString(); 
+    this.dt.N = new Date(dt).toDateString(); 
     this.entry = {};
     this.entry.S = entry;
   }
