@@ -20,6 +20,7 @@ $('tbody tbody tbody').children().each(function(i, elem) {
   address [i] = $(elem).children().first().html().split("<br>")[2].split(",")[0].split(".")[0].split("-")[0].trim();
 }
 
+
 );
 
 fs.writeFileSync('/home/ec2-user/environment/week02/results.json', JSON.stringify(address));
