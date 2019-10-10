@@ -17,8 +17,7 @@ var meetings = []; // this variable will hold the lines of text
 let aMeeting;
 
 $('tbody tbody tbody').children().each(function(i, elem) {
-   
-
+    
     $(elem).find("td").each(function(i, td) {
         
       if (i===0) { 
@@ -73,14 +72,12 @@ let id= (zone*1000)
 
 for (let i=0; i<meetings.length; i++) {
     meetings[i]["locationId"]= id;
- 
  let meetingInstances = meetings[i].meetingInstances;
 //   console.log(id,meetingInstances);
   for (let i=0;i<meetingInstances.length;i++) {
       meetingInstances[i]["locationId"]=id;
     //   console.log(id,meetingInstances[i])
   }
-  
    id += 1;
 }
 
