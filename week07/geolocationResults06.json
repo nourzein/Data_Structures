@@ -23,7 +23,9 @@
         "locationId": 6000
       }
     ],
-    "locationId": 6000
+    "locationId": 6000,
+    "latitude": 40.7945161,
+    "longitude": -73.9710419
   },
   {
     "address": "120 West 69th Street",
@@ -49,7 +51,9 @@
         "locationId": 6001
       }
     ],
-    "locationId": 6001
+    "locationId": 6001,
+    "latitude": 40.7756982,
+    "longitude": -73.9810333
   },
   {
     "address": "422 West 57th Street",
@@ -67,7 +71,9 @@
         "locationId": 6002
       }
     ],
-    "locationId": 6002
+    "locationId": 6002,
+    "latitude": 40.7682311,
+    "longitude": -73.9868768
   },
   {
     "address": "164 West 74th Street",
@@ -85,7 +91,9 @@
         "locationId": 6003
       }
     ],
-    "locationId": 6003
+    "locationId": 6003,
+    "latitude": 40.7796117,
+    "longitude": -73.9801807
   },
   {
     "address": "207 West 96th Street",
@@ -103,7 +111,9 @@
         "locationId": 6004
       }
     ],
-    "locationId": 6004
+    "locationId": 6004,
+    "latitude": 40.7945161,
+    "longitude": -73.9710419
   },
   {
     "address": "144 West 90th Street",
@@ -161,7 +171,9 @@
         "locationId": 6005
       }
     ],
-    "locationId": 6005
+    "locationId": 6005,
+    "latitude": 40.7898068,
+    "longitude": -73.9723737
   },
   {
     "address": "141 West 73rd Street",
@@ -179,7 +191,9 @@
         "locationId": 6006
       }
     ],
-    "locationId": 6006
+    "locationId": 6006,
+    "latitude": 40.7789036,
+    "longitude": -73.9799533
   },
   {
     "address": "4 West 76th Street",
@@ -197,7 +211,9 @@
         "locationId": 6007
       }
     ],
-    "locationId": 6007
+    "locationId": 6007,
+    "latitude": 40.7788736,
+    "longitude": -73.9745891
   },
   {
     "address": "221 West 107th Street",
@@ -223,7 +239,9 @@
         "locationId": 6008
       }
     ],
-    "locationId": 6008
+    "locationId": 6008,
+    "latitude": 40.8017795,
+    "longitude": -73.9665393
   },
   {
     "address": "207 West 96th Street",
@@ -249,7 +267,9 @@
         "locationId": 6009
       }
     ],
-    "locationId": 6009
+    "locationId": 6009,
+    "latitude": 40.7945161,
+    "longitude": -73.9710419
   },
   {
     "address": "215 West 82nd Street",
@@ -267,7 +287,9 @@
         "locationId": 6010
       }
     ],
-    "locationId": 6010
+    "locationId": 6010,
+    "latitude": 40.7852818734432,
+    "longitude": -73.9771060064311
   },
   {
     "address": "601 West 114th Street",
@@ -293,7 +315,9 @@
         "locationId": 6011
       }
     ],
-    "locationId": 6011
+    "locationId": 6011,
+    "latitude": 40.8069051,
+    "longitude": -73.965058
   },
   {
     "address": "Central Park West &amp; 76th Street",
@@ -311,7 +335,9 @@
         "locationId": 6012
       }
     ],
-    "locationId": 6012
+    "locationId": 6012,
+    "latitude": 40.6639307188879,
+    "longitude": -73.9382749875207
   },
   {
     "address": "5 West 63rd Street",
@@ -345,7 +371,9 @@
         "locationId": 6013
       }
     ],
-    "locationId": 6013
+    "locationId": 6013,
+    "latitude": 40.7708644,
+    "longitude": -73.9806413
   },
   {
     "address": "4 West 76th Street",
@@ -363,7 +391,9 @@
         "locationId": 6014
       }
     ],
-    "locationId": 6014
+    "locationId": 6014,
+    "latitude": 40.7788736,
+    "longitude": -73.9745891
   },
   {
     "address": "160 Central Park West",
@@ -381,7 +411,9 @@
         "locationId": 6015
       }
     ],
-    "locationId": 6015
+    "locationId": 6015,
+    "latitude": 40.7787712,
+    "longitude": -73.9743066
   },
   {
     "address": "152 West 66th Street",
@@ -399,7 +431,9 @@
         "locationId": 6016
       }
     ],
-    "locationId": 6016
+    "locationId": 6016,
+    "latitude": 40.7744405,
+    "longitude": -73.9838262
   },
   {
     "address": "3 West 95th Street",
@@ -433,7 +467,9 @@
         "locationId": 6017
       }
     ],
-    "locationId": 6017
+    "locationId": 6017,
+    "latitude": 40.7912379,
+    "longitude": -73.9655109
   },
   {
     "address": "251 West 80th Street",
@@ -451,7 +487,9 @@
         "locationId": 6018
       }
     ],
-    "locationId": 6018
+    "locationId": 6018,
+    "latitude": 40.7848713,
+    "longitude": -73.9800524
   },
   {
     "address": "111 West 71st Street",
@@ -541,7 +579,9 @@
         "locationId": 6019
       }
     ],
-    "locationId": 6019
+    "locationId": 6019,
+    "latitude": 40.7769516,
+    "longitude": -73.9795507
   },
   {
     "address": "5 West 63rd Street",
@@ -567,7 +607,9 @@
         "locationId": 6020
       }
     ],
-    "locationId": 6020
+    "locationId": 6020,
+    "latitude": 40.7708644,
+    "longitude": -73.9806413
   },
   {
     "address": "5 West 63rd Street",
@@ -601,7 +643,9 @@
         "locationId": 6021
       }
     ],
-    "locationId": 6021
+    "locationId": 6021,
+    "latitude": 40.7708644,
+    "longitude": -73.9806413
   },
   {
     "address": "207 West 96th Street",
@@ -835,7 +879,9 @@
         "locationId": 6022
       }
     ],
-    "locationId": 6022
+    "locationId": 6022,
+    "latitude": 40.7945161,
+    "longitude": -73.9710419
   },
   {
     "address": "26 West 84th Street",
@@ -853,7 +899,9 @@
         "locationId": 6023
       }
     ],
-    "locationId": 6023
+    "locationId": 6023,
+    "latitude": 40.7844228,
+    "longitude": -73.9716168
   },
   {
     "address": "200 West 97th Street",
@@ -879,7 +927,9 @@
         "locationId": 6024
       }
     ],
-    "locationId": 6024
+    "locationId": 6024,
+    "latitude": 40.7946604892952,
+    "longitude": -73.9699229082063
   },
   {
     "address": "218 West 108th Street",
@@ -921,7 +971,9 @@
         "locationId": 6025
       }
     ],
-    "locationId": 6025
+    "locationId": 6025,
+    "latitude": 40.8021037,
+    "longitude": -73.9658778
   },
   {
     "address": "125 West 104th Street",
@@ -939,7 +991,9 @@
         "locationId": 6026
       }
     ],
-    "locationId": 6026
+    "locationId": 6026,
+    "latitude": 40.7985878,
+    "longitude": -73.9649967
   },
   {
     "address": "141 West 73rd Street",
@@ -973,7 +1027,9 @@
         "locationId": 6027
       }
     ],
-    "locationId": 6027
+    "locationId": 6027,
+    "latitude": 40.7789036,
+    "longitude": -73.9799533
   },
   {
     "address": "236 West 73rd Street",
@@ -1015,7 +1071,9 @@
         "locationId": 6028
       }
     ],
-    "locationId": 6028
+    "locationId": 6028,
+    "latitude": 40.7796494,
+    "longitude": -73.982239
   },
   {
     "address": "165 West 105th Street",
@@ -1033,7 +1091,9 @@
         "locationId": 6029
       }
     ],
-    "locationId": 6029
+    "locationId": 6029,
+    "latitude": 40.7996866,
+    "longitude": -73.9657282
   },
   {
     "address": "207 West 96th Street",
@@ -1051,7 +1111,9 @@
         "locationId": 6030
       }
     ],
-    "locationId": 6030
+    "locationId": 6030,
+    "latitude": 40.7945161,
+    "longitude": -73.9710419
   },
   {
     "address": "207 West 96th Street",
@@ -1101,7 +1163,9 @@
         "locationId": 6031
       }
     ],
-    "locationId": 6031
+    "locationId": 6031,
+    "latitude": 40.7945161,
+    "longitude": -73.9710419
   },
   {
     "address": "2504 Broadway",
@@ -1143,7 +1207,9 @@
         "locationId": 6032
       }
     ],
-    "locationId": 6032
+    "locationId": 6032,
+    "latitude": 40.7927534,
+    "longitude": -73.972842
   },
   {
     "address": "405 West 114th Street",
@@ -1169,7 +1235,9 @@
         "locationId": 6033
       }
     ],
-    "locationId": 6033
+    "locationId": 6033,
+    "latitude": 40.7946083,
+    "longitude": -73.9358608
   },
   {
     "address": "368 West End Ave",
@@ -1187,7 +1255,9 @@
         "locationId": 6034
       }
     ],
-    "locationId": 6034
+    "locationId": 6034,
+    "latitude": 40.783225,
+    "longitude": -73.9817572
   },
   {
     "address": "225 West 99th Street",
@@ -1205,7 +1275,9 @@
         "locationId": 6035
       }
     ],
-    "locationId": 6035
+    "locationId": 6035,
+    "latitude": 40.7964452,
+    "longitude": -73.9694226
   },
   {
     "address": "251 West 100th Street",
@@ -1223,7 +1295,9 @@
         "locationId": 6036
       }
     ],
-    "locationId": 6036
+    "locationId": 6036,
+    "latitude": 40.7977791,
+    "longitude": -73.9709911
   },
   {
     "address": "207 West 96th Street",
@@ -1289,7 +1363,9 @@
         "locationId": 6037
       }
     ],
-    "locationId": 6037
+    "locationId": 6037,
+    "latitude": 40.7945161,
+    "longitude": -73.9710419
   },
   {
     "address": "26 West 84th Street",
@@ -1323,7 +1399,9 @@
         "locationId": 6038
       }
     ],
-    "locationId": 6038
+    "locationId": 6038,
+    "latitude": 40.7844228,
+    "longitude": -73.9716168
   },
   {
     "address": "5 West 63rd Street",
@@ -1341,7 +1419,9 @@
         "locationId": 6039
       }
     ],
-    "locationId": 6039
+    "locationId": 6039,
+    "latitude": 40.7708644,
+    "longitude": -73.9806413
   },
   {
     "address": "552 West End Avenue",
@@ -1359,7 +1439,9 @@
         "locationId": 6040
       }
     ],
-    "locationId": 6040
+    "locationId": 6040,
+    "latitude": 40.78931,
+    "longitude": -73.9773114
   },
   {
     "address": "164 West 74 Street",
@@ -1385,7 +1467,9 @@
         "locationId": 6041
       }
     ],
-    "locationId": 6041
+    "locationId": 6041,
+    "latitude": 40.7796117,
+    "longitude": -73.9801807
   },
   {
     "address": "340 West 85th Street",
@@ -1403,7 +1487,9 @@
         "locationId": 6042
       }
     ],
-    "locationId": 6042
+    "locationId": 6042,
+    "latitude": 40.7887343,
+    "longitude": -73.9798639
   },
   {
     "address": "368 West End Avenue",
@@ -1429,7 +1515,9 @@
         "locationId": 6043
       }
     ],
-    "locationId": 6043
+    "locationId": 6043,
+    "latitude": 40.783225,
+    "longitude": -73.9817572
   },
   {
     "address": "152 West 71st Street",
@@ -1447,7 +1535,9 @@
         "locationId": 6044
       }
     ],
-    "locationId": 6044
+    "locationId": 6044,
+    "latitude": 40.7774259,
+    "longitude": -73.9812051
   },
   {
     "address": "5 West 63rd Street",
@@ -1465,7 +1555,9 @@
         "locationId": 6045
       }
     ],
-    "locationId": 6045
+    "locationId": 6045,
+    "latitude": 40.7708644,
+    "longitude": -73.9806413
   },
   {
     "address": "131 West 72nd Street",
@@ -1483,7 +1575,9 @@
         "locationId": 6046
       }
     ],
-    "locationId": 6046
+    "locationId": 6046,
+    "latitude": 40.7780247,
+    "longitude": -73.9798344
   },
   {
     "address": "207 West 96th Street",
@@ -1533,7 +1627,9 @@
         "locationId": 6047
       }
     ],
-    "locationId": 6047
+    "locationId": 6047,
+    "latitude": 40.7945161,
+    "longitude": -73.9710419
   },
   {
     "address": "152 West 71st Street",
@@ -1559,7 +1655,9 @@
         "locationId": 6048
       }
     ],
-    "locationId": 6048
+    "locationId": 6048,
+    "latitude": 40.7774259,
+    "longitude": -73.9812051
   },
   {
     "address": "30 West 68th Street",
@@ -1577,7 +1675,9 @@
         "locationId": 6049
       }
     ],
-    "locationId": 6049
+    "locationId": 6049,
+    "latitude": 40.7740859,
+    "longitude": -73.979107
   },
   {
     "address": "207 West 96th Street",
@@ -1595,7 +1695,9 @@
         "locationId": 6050
       }
     ],
-    "locationId": 6050
+    "locationId": 6050,
+    "latitude": 40.7945161,
+    "longitude": -73.9710419
   },
   {
     "address": "263 West 86th Street",
@@ -1637,7 +1739,9 @@
         "locationId": 6051
       }
     ],
-    "locationId": 6051
+    "locationId": 6051,
+    "latitude": 40.7887918,
+    "longitude": -73.9772649
   },
   {
     "address": "306 West 102nd Street",
@@ -1655,7 +1759,9 @@
         "locationId": 6052
       }
     ],
-    "locationId": 6052
+    "locationId": 6052,
+    "latitude": 40.7992334,
+    "longitude": -73.9710638
   },
   {
     "address": "152 West 71st Street",
@@ -1673,7 +1779,9 @@
         "locationId": 6053
       }
     ],
-    "locationId": 6053
+    "locationId": 6053,
+    "latitude": 40.7774259,
+    "longitude": -73.9812051
   },
   {
     "address": "26 West 84th Street",
@@ -1691,7 +1799,9 @@
         "locationId": 6054
       }
     ],
-    "locationId": 6054
+    "locationId": 6054,
+    "latitude": 40.7844228,
+    "longitude": -73.9716168
   },
   {
     "address": "595 Columbus Avenue",
@@ -1709,7 +1819,9 @@
         "locationId": 6055
       }
     ],
-    "locationId": 6055
+    "locationId": 6055,
+    "latitude": 40.7879892,
+    "longitude": -73.9707609
   },
   {
     "address": "306 West 102nd Street",
@@ -1735,7 +1847,9 @@
         "locationId": 6056
       }
     ],
-    "locationId": 6056
+    "locationId": 6056,
+    "latitude": 40.7992334,
+    "longitude": -73.9710638
   },
   {
     "address": "213 West 82nd Street",
@@ -1753,7 +1867,9 @@
         "locationId": 6057
       }
     ],
-    "locationId": 6057
+    "locationId": 6057,
+    "latitude": 40.7760114,
+    "longitude": -73.9550312
   },
   {
     "address": "152 West 71st Street",
@@ -1787,7 +1903,9 @@
         "locationId": 6058
       }
     ],
-    "locationId": 6058
+    "locationId": 6058,
+    "latitude": 40.7774259,
+    "longitude": -73.9812051
   },
   {
     "address": "152 west 71st street",
@@ -1805,7 +1923,9 @@
         "locationId": 6059
       }
     ],
-    "locationId": 6059
+    "locationId": 6059,
+    "latitude": 40.7774259,
+    "longitude": -73.9812051
   },
   {
     "address": "152 West 71st Street",
@@ -1823,7 +1943,9 @@
         "locationId": 6060
       }
     ],
-    "locationId": 6060
+    "locationId": 6060,
+    "latitude": 40.7774259,
+    "longitude": -73.9812051
   },
   {
     "address": "160 Central Park West",
@@ -1841,7 +1963,9 @@
         "locationId": 6061
       }
     ],
-    "locationId": 6061
+    "locationId": 6061,
+    "latitude": 40.7787712,
+    "longitude": -73.9743066
   },
   {
     "address": "207 West 96th Street",
@@ -1859,6 +1983,8 @@
         "locationId": 6062
       }
     ],
-    "locationId": 6062
+    "locationId": 6062,
+    "latitude": 40.7945161,
+    "longitude": -73.9710419
   }
 ]

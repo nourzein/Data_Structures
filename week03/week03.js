@@ -14,6 +14,8 @@ var meetingsData = [];
 var addresses = require("./week02/results.json");
 console.log(addresses[0]); //. to check that the require function worked
 
+var geocodeData= []
+
 
 
 
@@ -32,11 +34,15 @@ async.eachSeries(
             var tamuGeo = JSON.parse(body);
             console.log(tamuGeo);
             meetingsData.push({streetAddress: tamuGeo["InputAddress"]["StreetAddress"], City: tamuGeo["InputAddress"]["City"], Geocode: { Latitude: tamuGeo["OutputGeocodes"][0]["OutputGeocode"]["Latitude"], Longitude: tamuGeo["OutputGeocodes"][0]["OutputGeocode"]["Longitude"]}});
+           geocodeData.push({Latitude: tamuGeo["OutputGeocodes"][0]["OutputGeocode"]["Latitude"], Longitude: tamuGeo["OutputGeocodes"][0]["OutputGeocode"]["Longitude"]});
+            
         }
+        console.log(geocodeData)
     });
     
 setTimeout(callback, 2000);
-}, 
+},
+
 
 
 function() {
