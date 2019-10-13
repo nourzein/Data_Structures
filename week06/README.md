@@ -11,12 +11,6 @@ Table:
 
 Doing so, I was ready to query from my NoSQL database for my data structures homework from last week (of course, not forgetting to install dependencies):
 
-    var AWS = require('aws-sdk');
-    AWS.config = new AWS.Config();
-    AWS.config.region = "us-east-2";
-
-    var dynamodb = new AWS.DynamoDB();
-
     var params = {
         TableName : "Dear_Diary",
         KeyConditionExpression: 
@@ -49,24 +43,6 @@ The query looks like so:
 
 For the SQL query, it was pretty straightforward, I just selected from my table a particular address using "SELECT address FROM aalocations WHERE address= '...'"
 This is the code: 
-
-    const { Client } = require('pg');
-    const cTable = require('console.table');
-    const dotenv = require('dotenv');
-    dotenv.config();
-
-    // AWS RDS POSTGRESQL INSTANCE
-    var db_credentials = new Object();
-    db_credentials.user = 'nour'; //your username
-    db_credentials.host = process.env.WEB_HOST; //your endpoint
-    db_credentials.database = 'aa';
-    db_credentials.password = process.env.POSTGPW; //password. use an environment variable 
-    db_credentials.port = 5432; 
-
-    // Connect to the AWS RDS Postgres database
-    const client = new Client(db_credentials);
-    client.connect();
-    // console.log(client);
 
     // Sample SQL statement to query meetings on Monday that start on or after 7:00pm: 
     var thisQuery = "SELECT address FROM aalocations WHERE address= '207 W 96TH ST New York NY ';";
