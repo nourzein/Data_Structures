@@ -6,7 +6,7 @@ Create queries for my SQL and NoSQL databses.
 ### Part 1: NoSQL
 
 For the NoSQL query, I needed to change my pervious structuring of my dates in the table from toDateString to toLocaleString(). I realized this because looking at my table, the dates were being sorted weird. I still think I will change it in the future to toISOString() because it seems like that is the most full proof way. 
-Table: 
+
 ![table](https://github.com/nourzein/Data_Structures/blob/master/week06/NoSQL_table.png)
 
 Doing so, I was ready to query from my NoSQL database for my data structures homework from last week (of course, not forgetting to install dependencies):
