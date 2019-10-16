@@ -87,7 +87,7 @@ for (let i=0; i<meetings.length; i++) {
   id ++;
 }
 
-    fs.writeFileSync('AA' + value + '.json', JSON.stringify(meetings, null, 2));
+    fs.writeFileSync('./file/AA' + value + '.json', JSON.stringify(meetings, null, 2));
     console.log('*** *** *** *** ***'); // simply to see theoutput well
     console.log('Number of meetings in this zone: ');
     console.log(meetings.length); // see how many meetings were done

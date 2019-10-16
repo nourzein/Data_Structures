@@ -1,1 +1,678 @@
-[{"address":"20 Cardinal Hayes Place","meetingName":"A DESIGN FOR LIVING -","meetingTitle":"St Andrews Church","fullLocation":"20 Cardinal Hayes Place, Rectory Basement, (Between Duane and Pearl Streets), 10007","scheduleDetails":"@Duane and Centre behind Federal courthouse enter thru driveway behind Church No meetings on Holidays","meetingInstances":[{"day":"Thursdays","startTime":700,"endTime":800,"meetingType":"OD = Open Discussion meeting","specialInterest":"","locationId":1000},{"day":"Tuesdays","startTime":700,"endTime":800,"meetingType":"B = Beginners meeting","specialInterest":"","locationId":1000}],"locationId":1000},{"address":"20 Cardinal Hayes Place","meetingName":"CHAMBERS STREET - A BRIDGE BACK - Chambers Street - A Bridge Back","meetingTitle":"St. Andrew&apos;s Church","fullLocation":"20 Cardinal Hayes Place, Enter through driveway behind Church., (1 Block North of Chambers Street) NY 10007","scheduleDetails":"No meetings on Holidays. **LOCATION SUBJECT TO CHANGE- Call Inter-Group","meetingInstances":[{"day":"Mondays","startTime":1215,"endTime":1315,"meetingType":"OD = Open Discussion meeting","specialInterest":"","locationId":1001},{"day":"Wednesdays","startTime":1215,"endTime":1315,"meetingType":"S = Step meeting","specialInterest":"","locationId":1001},{"day":"Thursdays","startTime":1215,"endTime":1315,"meetingType":"B = Beginners meeting","specialInterest":"","locationId":1001},{"day":"Fridays","startTime":1215,"endTime":1315,"meetingType":"BB = Big Book meeting","specialInterest":"","locationId":1001}],"locationId":1001},{"address":"29 Mott Street","meetingName":"CHINATOWN - Chinatown","meetingTitle":"Church of the Transfiguration","fullLocation":"29 Mott Street, Basement, (@ Mott &amp; Mosco Streets) NY 10013","scheduleDetails":"","meetingInstances":[{"day":"Tuesdays","startTime":1830,"endTime":1930,"meetingType":"C = Closed Discussion meeting","specialInterest":"","locationId":1002}],"locationId":1002},{"address":"49 Fulton Street","meetingName":"DOWNTOWN -","meetingTitle":"St. Margaret&apos;s Residence","fullLocation":"49 Fulton Street, 1st Floor Library, (@ Pearl Street) 10038","scheduleDetails":"","meetingInstances":[{"day":"Mondays","startTime":1900,"endTime":2000,"meetingType":"OD = Open Discussion meeting","specialInterest":"","locationId":1003}],"locationId":1003},{"address":"44 John Street","meetingName":"EXCHANGE VIEWS @ JOHN STREET CHURCH -","meetingTitle":"","fullLocation":"44 John Street, between Nassau and William 10038","scheduleDetails":"Thursday 1:30 = Alt. Step/Tradition Email exchangeviews1215@yahoo.com for questions","meetingInstances":[{"day":"Mondays","startTime":1215,"endTime":1315,"meetingType":"OD = Open Discussion meeting","specialInterest":"","locationId":1004},{"day":"Tuesdays","startTime":1215,"endTime":1315,"meetingType":"S = Step meeting","specialInterest":"","locationId":1004},{"day":"Thursdays","startTime":1215,"endTime":1315,"meetingType":"OD = Open Discussion meeting","specialInterest":"","locationId":1004},{"day":"Mondays","startTime":1330,"endTime":1430,"meetingType":"B = Beginners meeting","specialInterest":"Living Sober","locationId":1004},{"day":"Thursdays","startTime":1330,"endTime":1430,"meetingType":"S = Step meeting","specialInterest":"","locationId":1004}],"locationId":1004},{"address":"49 Fulton Street","meetingName":"EXCHANGE VIEWS @ ST. MARGARET&apos;S HOUSE -","meetingTitle":"","fullLocation":"49 Fulton Street, near Water 10038","scheduleDetails":"This is new location as of 9-12-14 M 7:30 am= Trad 1st Monday.","meetingInstances":[{"day":"Mondays","startTime":630,"endTime":730,"meetingType":"C = Closed Discussion meeting","specialInterest":"Topic","locationId":1005},{"day":"Tuesdays","startTime":630,"endTime":730,"meetingType":"C = Closed Discussion meeting","specialInterest":"","locationId":1005},{"day":"Wednesdays","startTime":630,"endTime":730,"meetingType":"C = Closed Discussion meeting","specialInterest":"Topic","locationId":1005},{"day":"Thursdays","startTime":630,"endTime":730,"meetingType":"S = Step meeting","specialInterest":"","locationId":1005},{"day":"Fridays","startTime":630,"endTime":730,"meetingType":"BB = Big Book meeting","specialInterest":"","locationId":1005},{"day":"Mondays","startTime":730,"endTime":830,"meetingType":"S = Step meeting","specialInterest":"","locationId":1005},{"day":"Tuesdays","startTime":730,"endTime":830,"meetingType":"OD = Open Discussion meeting","specialInterest":"","locationId":1005},{"day":"Wednesdays","startTime":730,"endTime":830,"meetingType":"OD = Open Discussion meeting","specialInterest":"","locationId":1005},{"day":"Thursdays","startTime":730,"endTime":830,"meetingType":"OD = Open Discussion meeting","specialInterest":"","locationId":1005},{"day":"Fridays","startTime":730,"endTime":830,"meetingType":"B = Beginners meeting","specialInterest":"","locationId":1005},{"day":"Sundays","startTime":745,"endTime":845,"meetingType":"OD = Open Discussion meeting","specialInterest":"Round-Robin Meeting Format","locationId":1005},{"day":"Saturdays","startTime":745,"endTime":845,"meetingType":"OD = Open Discussion meeting","specialInterest":"Round-Robin Meeting Format","locationId":1005},{"day":"Fridays","startTime":1730,"endTime":1830,"meetingType":"B = Beginners meeting","specialInterest":"","locationId":1005}],"locationId":1005},{"address":"20 Cardinal Hayes Place","meetingName":"FRIDAY DOWNTOWN - Friday Downtown","meetingTitle":"St. Andrew&apos;s Church","fullLocation":"20 Cardinal Hayes Place, Enter thru driveway behind Church., (1 Block North of Chamber Street, Behind Federal Courthouse) NY 10007","scheduleDetails":"Note: Location Subject to change","meetingInstances":[{"day":"Fridays","startTime":1800,"endTime":1900,"meetingType":"OD = Open Discussion meeting","specialInterest":"","locationId":1006}],"locationId":1006},{"address":"22 Barclay Street","meetingName":"GATEWAY - Gateway","meetingTitle":"St. Peter&apos;s Church","fullLocation":"22 Barclay Street, Entrance on Church St. between Vesey &amp; Barclay Streets NY","scheduleDetails":"","meetingInstances":[{"day":"Sundays","startTime":1800,"endTime":1900,"meetingType":"BB = Big Book meeting","specialInterest":"","locationId":1007}],"locationId":1007},{"address":"20 Cardinal Hayes Place","meetingName":"PASSING THE BAR - Passing The Bar","meetingTitle":"St. Andrew&apos;s Church","fullLocation":"20 Cardinal Hayes Place, Enter thru driveway behind Church., (Betw. Duane &amp; Pearl Streets) NY 10007","scheduleDetails":"*Business meeting last Tuesday @ Mar,Jun,Sep & Dec.only. **Promises 1st Wednesday, ***T Last Thursday ** LOCATION IS SUBJECT TO CHANGE","meetingInstances":[{"day":"Mondays","startTime":1315,"endTime":1415,"meetingType":"B = Beginners meeting","specialInterest":"","locationId":1008},{"day":"Tuesdays","startTime":1315,"endTime":1415,"meetingType":"C = Closed Discussion meeting","specialInterest":"","locationId":1008},{"day":"Wednesdays","startTime":1315,"endTime":1415,"meetingType":"C = Closed Discussion meeting","specialInterest":"Promises","locationId":1008},{"day":"Thursdays","startTime":1315,"endTime":1415,"meetingType":"S = Step meeting","specialInterest":"","locationId":1008},{"day":"Fridays","startTime":1315,"endTime":1415,"meetingType":"BB = Big Book meeting","specialInterest":"","locationId":1008}],"locationId":1008},{"address":"22 Barclay Street (Basement)","meetingName":"S.O.B.E.R. -","meetingTitle":"Saint Peter&apos;s Church","fullLocation":"22 Barclay Street (Basement), (Corner of Barclay &amp; Church Streets) 10007","scheduleDetails":"Enter on Church Street Lower floor, Parish Office Room","meetingInstances":[{"day":"Thursdays","startTime":1930,"endTime":2045,"meetingType":"OD = Open Discussion meeting","specialInterest":"","locationId":1009}],"locationId":1009},{"address":"283 West Broadway","meetingName":"SANE AND SOBER -","meetingTitle":"Hazelden Tribeca","fullLocation":"283 West Broadway, (Betw. Lispenard and Canal Streets), Ground Floor, Broadway Room, Enter through Green Door 10013","scheduleDetails":"Mental Health Challenges in Sobriety. *Alternating Closed & rotating 1, 2, 3 Step every other week. Open – Last Wednesday.","meetingInstances":[{"day":"Wednesdays","startTime":1900,"endTime":2000,"meetingType":"C = Closed Discussion meeting","specialInterest":"Mental Health Issues in Sobriety","locationId":1010}],"locationId":1010},{"address":"125 Barclay Street","meetingName":"SATURDAY AFTERNOON DISCUSSION - Saturday Afternoon Discussion","meetingTitle":"Municipal Union Bldg DC 37","fullLocation":"125 Barclay Street, (Betw. Greenwich Street &amp; West Side Highway) NY 10007","scheduleDetails":"Ask security guard for room #","meetingInstances":[{"day":"Saturdays","startTime":1400,"endTime":1515,"meetingType":"OD = Open Discussion meeting","specialInterest":"","locationId":1011}],"locationId":1011},{"address":"49 Fulton Street","meetingName":"SEAMEN&apos;S GROUP -","meetingTitle":"St. Margaret&apos;s House","fullLocation":"49 Fulton Street, Conference Room #1, (@ Water &amp; Fulton Streets) 10038","scheduleDetails":"*Co-ed meeting, all are welcome.","meetingInstances":[{"day":"Tuesdays","startTime":1800,"endTime":1900,"meetingType":"S = Step meeting","specialInterest":"","locationId":1012}],"locationId":1012},{"address":"49 Fulton Street","meetingName":"SEAPORT - Seaport","meetingTitle":"St. Margaret&apos;s House","fullLocation":"49 Fulton Street, (Corner of Fulton &amp; Pearl Streets @ Water Street) NY 10038","scheduleDetails":"11th Step Meditation (Mon), Topic (Thu)","meetingInstances":[{"day":"Thursdays","startTime":1215,"endTime":1315,"meetingType":"C = Closed Discussion meeting","specialInterest":"","locationId":1013},{"day":"Fridays","startTime":1215,"endTime":1315,"meetingType":"S = Step meeting","specialInterest":"","locationId":1013},{"day":"Mondays","startTime":1215,"endTime":1315,"meetingType":"S = Step meeting","specialInterest":"Meditation","locationId":1013},{"day":"Wednesdays","startTime":1215,"endTime":1315,"meetingType":"BB = Big Book meeting","specialInterest":"","locationId":1013},{"day":"Tuesdays","startTime":1215,"endTime":1315,"meetingType":"B = Beginners meeting","specialInterest":"","locationId":1013}],"locationId":1013},{"address":"20 Cardinal Hayes Place","meetingName":"TOWER -","meetingTitle":"Church of Saint Andrew","fullLocation":"20 Cardinal Hayes Place, 10007 ","scheduleDetails":"Step 1st Wednesday","meetingInstances":[{"day":"Wednesdays","startTime":1730,"endTime":1830,"meetingType":"OD = Open Discussion meeting","specialInterest":"","locationId":1014}],"locationId":1014},{"address":"283 West Broadway","meetingName":"TRIANGLE GROUP -","meetingTitle":"Tribeca 12 Building","fullLocation":"283 West Broadway, Canal and Lispendard Sts. 10013","scheduleDetails":"Walk thru green doors; first floor, rear. Addtl meditation meeting on Sunday at 11:15 if room full","meetingInstances":[{"day":"Sundays","startTime":1100,"endTime":1200,"meetingType":"C = Closed Discussion meeting","specialInterest":"Meditation","locationId":1015},{"day":"Fridays","startTime":1230,"endTime":1330,"meetingType":"BB = Big Book meeting","specialInterest":"","locationId":1015},{"day":"Mondays","startTime":1830,"endTime":1930,"meetingType":"C = Closed Discussion meeting","specialInterest":"","locationId":1015},{"day":"Thursdays","startTime":1830,"endTime":1930,"meetingType":"C = Closed Discussion meeting","specialInterest":"","locationId":1015}],"locationId":1015},{"address":"49 Fulton Street","meetingName":"TRIBECA GROUP @ ST. MARGARET&apos;S HOUSE -","meetingTitle":"","fullLocation":"49 Fulton Street, Near Water 10038","scheduleDetails":"this is the new location as of 9/8/14 tribecagroup2014@gmail.com","meetingInstances":[{"day":"Fridays","startTime":1930,"endTime":2030,"meetingType":"S = Step meeting","specialInterest":"","locationId":1016},{"day":"Saturdays","startTime":1930,"endTime":2030,"meetingType":"OD = Open Discussion meeting","specialInterest":"","locationId":1016},{"day":"Tuesdays","startTime":1930,"endTime":2030,"meetingType":"BB = Big Book meeting","specialInterest":"","locationId":1016},{"day":"Thursdays","startTime":1930,"endTime":2030,"meetingType":"B = Beginners meeting","specialInterest":"","locationId":1016}],"locationId":1016},{"address":"22 Barclay Street","meetingName":"TRIBECA GROUP @ ST. PETER&apos;S CHURCH - Tribeca","meetingTitle":"St. Peter&apos;s Church","fullLocation":"22 Barclay Street- basement chapel, between Church and Broadway NY 10006","scheduleDetails":"Monday step - 3rd and 11th step workshop tribecagroup2014@gmail.com","meetingInstances":[{"day":"Mondays","startTime":1945,"endTime":2045,"meetingType":"S = Step meeting","specialInterest":"","locationId":1017},{"day":"Wednesdays","startTime":2000,"endTime":2100,"meetingType":"OD = Open Discussion meeting","specialInterest":"","locationId":1017}],"locationId":1017},{"address":"20 Cardinal Hayes Place","meetingName":"WOMEN&apos;S DOWNTOWN AA STEP MEETING -","meetingTitle":"St. Andrew&apos;s Church","fullLocation":"20 Cardinal Hayes Place, On Plaza east of Centre St and Reade St, 1st floor 10007","scheduleDetails":"","meetingInstances":[{"day":"Wednesdays","startTime":1315,"endTime":1415,"meetingType":"S = Step meeting","specialInterest":"","locationId":1018}],"locationId":1018},{"address":"283 West Broadway","meetingName":"YOUNG PEOPLE&apos;S DIVERSITY -","meetingTitle":"Hazelden Center","fullLocation":"283 West Broadway, 10013 ","scheduleDetails":"Lesbian, Gay, Bi-sexual & Transgendered Focus All are welcome.","meetingInstances":[{"day":"Wednesdays","startTime":2030,"endTime":2130,"meetingType":"C = Closed Discussion meeting","specialInterest":"Gay, Lesbian and Bisexual","locationId":1019}],"locationId":1019},{"address":"283 West Broadway","meetingName":"YOUNG PEOPLE&apos;S STEP -","meetingTitle":"Hazelden Center","fullLocation":"283 West Broadway, (Between West Broadway and Canal Street) 10013","scheduleDetails":"","meetingInstances":[{"day":"Tuesdays","startTime":1945,"endTime":2045,"meetingType":"C = Closed Discussion meeting","specialInterest":"Young People","locationId":1020}],"locationId":1020},{"address":"283 W","meetingName":"YOUTH ENJOYING SOBRIETY (Y.E.S.) - Youth Enjoying Sobriety (Yes)","meetingTitle":"Hazelden Center","fullLocation":"283 W. Broadway, (at Canal Street) NY 10013","scheduleDetails":"Open Anniv. Last Saturday.","meetingInstances":[{"day":"Saturdays","startTime":1900,"endTime":2015,"meetingType":"B = Beginners meeting","specialInterest":"Young People","locationId":1021}],"locationId":1021}]
+[
+  {
+    "address": "20 Cardinal Hayes Place",
+    "meetingName": "A DESIGN FOR LIVING -",
+    "meetingTitle": "St Andrews Church",
+    "fullLocation": "20 Cardinal Hayes Place, Rectory Basement, (Between Duane and Pearl Streets), 10007",
+    "scheduleDetails": "@Duane and Centre behind Federal courthouse enter thru driveway behind Church No meetings on Holidays",
+    "meetingInstances": [
+      {
+        "day": "Thursdays",
+        "startTime": 700,
+        "endTime": 800,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1000
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 700,
+        "endTime": 800,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 1000
+      }
+    ],
+    "locationId": 1000
+  },
+  {
+    "address": "20 Cardinal Hayes Place",
+    "meetingName": "CHAMBERS STREET - A BRIDGE BACK - Chambers Street - A Bridge Back",
+    "meetingTitle": "St. Andrew&apos;s Church",
+    "fullLocation": "20 Cardinal Hayes Place, Enter through driveway behind Church., (1 Block North of Chambers Street) NY 10007",
+    "scheduleDetails": "No meetings on Holidays. **LOCATION SUBJECT TO CHANGE- Call Inter-Group",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1215,
+        "endTime": 1315,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1001
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1215,
+        "endTime": 1315,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 1001
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1215,
+        "endTime": 1315,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 1001
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1215,
+        "endTime": 1315,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 1001
+      }
+    ],
+    "locationId": 1001
+  },
+  {
+    "address": "29 Mott Street",
+    "meetingName": "CHINATOWN - Chinatown",
+    "meetingTitle": "Church of the Transfiguration",
+    "fullLocation": "29 Mott Street, Basement, (@ Mott &amp; Mosco Streets) NY 10013",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Tuesdays",
+        "startTime": 1830,
+        "endTime": 1930,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1002
+      }
+    ],
+    "locationId": 1002
+  },
+  {
+    "address": "49 Fulton Street",
+    "meetingName": "DOWNTOWN -",
+    "meetingTitle": "St. Margaret&apos;s Residence",
+    "fullLocation": "49 Fulton Street, 1st Floor Library, (@ Pearl Street) 10038",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1003
+      }
+    ],
+    "locationId": 1003
+  },
+  {
+    "address": "44 John Street",
+    "meetingName": "EXCHANGE VIEWS @ JOHN STREET CHURCH -",
+    "meetingTitle": "",
+    "fullLocation": "44 John Street, between Nassau and William 10038",
+    "scheduleDetails": "Thursday 1:30 = Alt. Step/Tradition Email exchangeviews1215@yahoo.com for questions",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1215,
+        "endTime": 1315,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1004
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1215,
+        "endTime": 1315,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 1004
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1215,
+        "endTime": 1315,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1004
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1330,
+        "endTime": 1430,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "Living Sober",
+        "locationId": 1004
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1330,
+        "endTime": 1430,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 1004
+      }
+    ],
+    "locationId": 1004
+  },
+  {
+    "address": "49 Fulton Street",
+    "meetingName": "EXCHANGE VIEWS @ ST. MARGARET&apos;S HOUSE -",
+    "meetingTitle": "",
+    "fullLocation": "49 Fulton Street, near Water 10038",
+    "scheduleDetails": "This is new location as of 9-12-14 M 7:30 am= Trad 1st Monday.",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 630,
+        "endTime": 730,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Topic",
+        "locationId": 1005
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 630,
+        "endTime": 730,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1005
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 630,
+        "endTime": 730,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Topic",
+        "locationId": 1005
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 630,
+        "endTime": 730,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 1005
+      },
+      {
+        "day": "Fridays",
+        "startTime": 630,
+        "endTime": 730,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 1005
+      },
+      {
+        "day": "Mondays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 1005
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1005
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1005
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1005
+      },
+      {
+        "day": "Fridays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 1005
+      },
+      {
+        "day": "Sundays",
+        "startTime": 745,
+        "endTime": 845,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "Round-Robin Meeting Format",
+        "locationId": 1005
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 745,
+        "endTime": 845,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "Round-Robin Meeting Format",
+        "locationId": 1005
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1730,
+        "endTime": 1830,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 1005
+      }
+    ],
+    "locationId": 1005
+  },
+  {
+    "address": "20 Cardinal Hayes Place",
+    "meetingName": "FRIDAY DOWNTOWN - Friday Downtown",
+    "meetingTitle": "St. Andrew&apos;s Church",
+    "fullLocation": "20 Cardinal Hayes Place, Enter thru driveway behind Church., (1 Block North of Chamber Street, Behind Federal Courthouse) NY 10007",
+    "scheduleDetails": "Note: Location Subject to change",
+    "meetingInstances": [
+      {
+        "day": "Fridays",
+        "startTime": 1800,
+        "endTime": 1900,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1006
+      }
+    ],
+    "locationId": 1006
+  },
+  {
+    "address": "22 Barclay Street",
+    "meetingName": "GATEWAY - Gateway",
+    "meetingTitle": "St. Peter&apos;s Church",
+    "fullLocation": "22 Barclay Street, Entrance on Church St. between Vesey &amp; Barclay Streets NY",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Sundays",
+        "startTime": 1800,
+        "endTime": 1900,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 1007
+      }
+    ],
+    "locationId": 1007
+  },
+  {
+    "address": "20 Cardinal Hayes Place",
+    "meetingName": "PASSING THE BAR - Passing The Bar",
+    "meetingTitle": "St. Andrew&apos;s Church",
+    "fullLocation": "20 Cardinal Hayes Place, Enter thru driveway behind Church., (Betw. Duane &amp; Pearl Streets) NY 10007",
+    "scheduleDetails": "*Business meeting last Tuesday @ Mar,Jun,Sep & Dec.only. **Promises 1st Wednesday, ***T Last Thursday ** LOCATION IS SUBJECT TO CHANGE",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1315,
+        "endTime": 1415,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 1008
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1315,
+        "endTime": 1415,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1008
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1315,
+        "endTime": 1415,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Promises",
+        "locationId": 1008
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1315,
+        "endTime": 1415,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 1008
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1315,
+        "endTime": 1415,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 1008
+      }
+    ],
+    "locationId": 1008
+  },
+  {
+    "address": "22 Barclay Street (Basement)",
+    "meetingName": "S.O.B.E.R. -",
+    "meetingTitle": "Saint Peter&apos;s Church",
+    "fullLocation": "22 Barclay Street (Basement), (Corner of Barclay &amp; Church Streets) 10007",
+    "scheduleDetails": "Enter on Church Street Lower floor, Parish Office Room",
+    "meetingInstances": [
+      {
+        "day": "Thursdays",
+        "startTime": 1930,
+        "endTime": 2045,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1009
+      }
+    ],
+    "locationId": 1009
+  },
+  {
+    "address": "283 West Broadway",
+    "meetingName": "SANE AND SOBER -",
+    "meetingTitle": "Hazelden Tribeca",
+    "fullLocation": "283 West Broadway, (Betw. Lispenard and Canal Streets), Ground Floor, Broadway Room, Enter through Green Door 10013",
+    "scheduleDetails": "Mental Health Challenges in Sobriety. *Alternating Closed & rotating 1, 2, 3 Step every other week. Open – Last Wednesday.",
+    "meetingInstances": [
+      {
+        "day": "Wednesdays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Mental Health Issues in Sobriety",
+        "locationId": 1010
+      }
+    ],
+    "locationId": 1010
+  },
+  {
+    "address": "125 Barclay Street",
+    "meetingName": "SATURDAY AFTERNOON DISCUSSION - Saturday Afternoon Discussion",
+    "meetingTitle": "Municipal Union Bldg DC 37",
+    "fullLocation": "125 Barclay Street, (Betw. Greenwich Street &amp; West Side Highway) NY 10007",
+    "scheduleDetails": "Ask security guard for room #",
+    "meetingInstances": [
+      {
+        "day": "Saturdays",
+        "startTime": 1400,
+        "endTime": 1515,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1011
+      }
+    ],
+    "locationId": 1011
+  },
+  {
+    "address": "49 Fulton Street",
+    "meetingName": "SEAMEN&apos;S GROUP -",
+    "meetingTitle": "St. Margaret&apos;s House",
+    "fullLocation": "49 Fulton Street, Conference Room #1, (@ Water &amp; Fulton Streets) 10038",
+    "scheduleDetails": "*Co-ed meeting, all are welcome.",
+    "meetingInstances": [
+      {
+        "day": "Tuesdays",
+        "startTime": 1800,
+        "endTime": 1900,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 1012
+      }
+    ],
+    "locationId": 1012
+  },
+  {
+    "address": "49 Fulton Street",
+    "meetingName": "SEAPORT - Seaport",
+    "meetingTitle": "St. Margaret&apos;s House",
+    "fullLocation": "49 Fulton Street, (Corner of Fulton &amp; Pearl Streets @ Water Street) NY 10038",
+    "scheduleDetails": "11th Step Meditation (Mon), Topic (Thu)",
+    "meetingInstances": [
+      {
+        "day": "Thursdays",
+        "startTime": 1215,
+        "endTime": 1315,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1013
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1215,
+        "endTime": 1315,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 1013
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1215,
+        "endTime": 1315,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "Meditation",
+        "locationId": 1013
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1215,
+        "endTime": 1315,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 1013
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1215,
+        "endTime": 1315,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 1013
+      }
+    ],
+    "locationId": 1013
+  },
+  {
+    "address": "20 Cardinal Hayes Place",
+    "meetingName": "TOWER -",
+    "meetingTitle": "Church of Saint Andrew",
+    "fullLocation": "20 Cardinal Hayes Place, 10007 ",
+    "scheduleDetails": "Step 1st Wednesday",
+    "meetingInstances": [
+      {
+        "day": "Wednesdays",
+        "startTime": 1730,
+        "endTime": 1830,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1014
+      }
+    ],
+    "locationId": 1014
+  },
+  {
+    "address": "283 West Broadway",
+    "meetingName": "TRIANGLE GROUP -",
+    "meetingTitle": "Tribeca 12 Building",
+    "fullLocation": "283 West Broadway, Canal and Lispendard Sts. 10013",
+    "scheduleDetails": "Walk thru green doors; first floor, rear. Addtl meditation meeting on Sunday at 11:15 if room full",
+    "meetingInstances": [
+      {
+        "day": "Sundays",
+        "startTime": 1100,
+        "endTime": 1200,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Meditation",
+        "locationId": 1015
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 1015
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1830,
+        "endTime": 1930,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1015
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1830,
+        "endTime": 1930,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1015
+      }
+    ],
+    "locationId": 1015
+  },
+  {
+    "address": "49 Fulton Street",
+    "meetingName": "TRIBECA GROUP @ ST. MARGARET&apos;S HOUSE -",
+    "meetingTitle": "",
+    "fullLocation": "49 Fulton Street, Near Water 10038",
+    "scheduleDetails": "this is the new location as of 9/8/14 tribecagroup2014@gmail.com",
+    "meetingInstances": [
+      {
+        "day": "Fridays",
+        "startTime": 1930,
+        "endTime": 2030,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 1016
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 1930,
+        "endTime": 2030,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1016
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1930,
+        "endTime": 2030,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 1016
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1930,
+        "endTime": 2030,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 1016
+      }
+    ],
+    "locationId": 1016
+  },
+  {
+    "address": "22 Barclay Street",
+    "meetingName": "TRIBECA GROUP @ ST. PETER&apos;S CHURCH - Tribeca",
+    "meetingTitle": "St. Peter&apos;s Church",
+    "fullLocation": "22 Barclay Street- basement chapel, between Church and Broadway NY 10006",
+    "scheduleDetails": "Monday step - 3rd and 11th step workshop tribecagroup2014@gmail.com",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1945,
+        "endTime": 2045,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 1017
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 1017
+      }
+    ],
+    "locationId": 1017
+  },
+  {
+    "address": "20 Cardinal Hayes Place",
+    "meetingName": "WOMEN&apos;S DOWNTOWN AA STEP MEETING -",
+    "meetingTitle": "St. Andrew&apos;s Church",
+    "fullLocation": "20 Cardinal Hayes Place, On Plaza east of Centre St and Reade St, 1st floor 10007",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Wednesdays",
+        "startTime": 1315,
+        "endTime": 1415,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 1018
+      }
+    ],
+    "locationId": 1018
+  },
+  {
+    "address": "283 West Broadway",
+    "meetingName": "YOUNG PEOPLE&apos;S DIVERSITY -",
+    "meetingTitle": "Hazelden Center",
+    "fullLocation": "283 West Broadway, 10013 ",
+    "scheduleDetails": "Lesbian, Gay, Bi-sexual & Transgendered Focus All are welcome.",
+    "meetingInstances": [
+      {
+        "day": "Wednesdays",
+        "startTime": 2030,
+        "endTime": 2130,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Gay, Lesbian and Bisexual",
+        "locationId": 1019
+      }
+    ],
+    "locationId": 1019
+  },
+  {
+    "address": "283 West Broadway",
+    "meetingName": "YOUNG PEOPLE&apos;S STEP -",
+    "meetingTitle": "Hazelden Center",
+    "fullLocation": "283 West Broadway, (Between West Broadway and Canal Street) 10013",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Tuesdays",
+        "startTime": 1945,
+        "endTime": 2045,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Young People",
+        "locationId": 1020
+      }
+    ],
+    "locationId": 1020
+  },
+  {
+    "address": "283 W",
+    "meetingName": "YOUTH ENJOYING SOBRIETY (Y.E.S.) - Youth Enjoying Sobriety (Yes)",
+    "meetingTitle": "Hazelden Center",
+    "fullLocation": "283 W. Broadway, (at Canal Street) NY 10013",
+    "scheduleDetails": "Open Anniv. Last Saturday.",
+    "meetingInstances": [
+      {
+        "day": "Saturdays",
+        "startTime": 1900,
+        "endTime": 2015,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "Young People",
+        "locationId": 1021
+      }
+    ],
+    "locationId": 1021
+  }
+]
