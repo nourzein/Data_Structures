@@ -50,7 +50,7 @@ setTimeout(callback, 2000);
 
 
 function() {
-    fs.writeFileSync('geolocationResults.json', JSON.stringify(addresses, null, 2));
+    fs.writeFileSync('geolocationResults06.json', JSON.stringify(addresses, null, 2));
     console.log('*** *** *** *** ***'); // simply to see theoutput well
     console.log('Number of meetings in this zone: ');
     console.log(addresses.length); // see how many meetings were done

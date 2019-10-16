@@ -1,0 +1,1852 @@
+[
+  {
+    "address": "351 East 74th Street",
+    "meetingName": "A BAFFLED LOT -",
+    "meetingTitle": "Jan Hus Church",
+    "fullLocation": "351 East 74th Street,  2nd Floor, (Betw 1st &amp; 2nd Avenues) 10021",
+    "scheduleDetails": "Topic Meeting",
+    "meetingInstances": [
+      {
+        "day": "Saturdays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7000
+      }
+    ],
+    "locationId": 7000
+  },
+  {
+    "address": "48 East 80th Street",
+    "meetingName": "A.A. TRADITIONS AND HISTORY -",
+    "meetingTitle": "Manhattan Church of Christ",
+    "fullLocation": "48 East 80th Street, 2nd Floor Library, Ring Bell Next to Sign., (Betw Park &amp; Madison Avenues) 10021",
+    "scheduleDetails": "Traditions Meeting",
+    "meetingInstances": [
+      {
+        "day": "Tuesdays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "meetingType": "T = Tradition meeting",
+        "specialInterest": "",
+        "locationId": 7001
+      }
+    ],
+    "locationId": 7001
+  },
+  {
+    "address": "184 East 76th Street",
+    "meetingName": "ACTIVE - Active",
+    "meetingTitle": "St. Jean Baptiste Church",
+    "fullLocation": "184 East 76th Street, Basement, (Betw Lexington &amp; 3rd Avenues - Ring Bell) NY 10021",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Wednesdays",
+        "startTime": 1800,
+        "endTime": 1900,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7002
+      }
+    ],
+    "locationId": 7002
+  },
+  {
+    "address": "351 East 74th Street",
+    "meetingName": "AFTERNOON AWAKENING -",
+    "meetingTitle": "Jan Hus Church",
+    "fullLocation": "351 East 74th Street, 2nd Floor, (Betw. 1st &amp; 2nd Avenues) 10021",
+    "scheduleDetails": "Mon=Living Sober, Thu=11 Step with meditation, Fri=3rd Step",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1430,
+        "endTime": 1530,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "Living Sober",
+        "locationId": 7003
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1430,
+        "endTime": 1530,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7003
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1430,
+        "endTime": 1530,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 7003
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1430,
+        "endTime": 1530,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7003
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1430,
+        "endTime": 1530,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7003
+      }
+    ],
+    "locationId": 7003
+  },
+  {
+    "address": "1393 York Avenue",
+    "meetingName": "ATLANTIC ELEVENTH STEP MEDITATION -",
+    "meetingTitle": "Church of the Epiphany",
+    "fullLocation": "1393 York Avenue, (@ 74th Street) 10021",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1915,
+        "endTime": 2015,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7004
+      }
+    ],
+    "locationId": 7004
+  },
+  {
+    "address": "520 Park Avenue",
+    "meetingName": "ATLANTIC GROUP (:I) - Atlantic    (:I)",
+    "meetingTitle": "Christ United Methodist Church",
+    "fullLocation": "520 Park Avenue, (@ 60th Street) NY 10021",
+    "scheduleDetails": "Three speaker",
+    "meetingInstances": [
+      {
+        "day": "Tuesdays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "meetingType": "O = Open meeting",
+        "specialInterest": "",
+        "locationId": 7005
+      }
+    ],
+    "locationId": 7005
+  },
+  {
+    "address": "337 E",
+    "meetingName": "ATLANTIC GROUP (:II) -",
+    "meetingTitle": "Archdiocian Cathedral of the Holy Trinity",
+    "fullLocation": "337 E. 74th St., (Between First and Second Avenues) 10021",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Thursdays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7006
+      }
+    ],
+    "locationId": 7006
+  },
+  {
+    "address": "1157 Lexington Avenue",
+    "meetingName": "ATLANTIC GROUP (:III) -",
+    "meetingTitle": "All Souls Church",
+    "fullLocation": "1157 Lexington Avenue, (between 79th and 80th Streets) 10075",
+    "scheduleDetails": "Two speaker",
+    "meetingInstances": [
+      {
+        "day": "Saturdays",
+        "startTime": 1800,
+        "endTime": 1900,
+        "meetingType": "O = Open meeting",
+        "specialInterest": "",
+        "locationId": 7007
+      }
+    ],
+    "locationId": 7007
+  },
+  {
+    "address": "420 East 76th Street",
+    "meetingName": "BREAKING THROUGH - Breaking Through",
+    "meetingTitle": "Gracie Square Hospital",
+    "fullLocation": "420 East 76th Street, (Betw 1st &amp; York Avenues) NY 10021",
+    "scheduleDetails": "*Open Last Friday Check with front desk security for meeting room location.",
+    "meetingInstances": [
+      {
+        "day": "Fridays",
+        "startTime": 1830,
+        "endTime": 1930,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7008
+      }
+    ],
+    "locationId": 7008
+  },
+  {
+    "address": "230 East 90th Street",
+    "meetingName": "CAME TO BELIEVE - Came To Believe",
+    "meetingTitle": "Our Lady of Good Counsel Church",
+    "fullLocation": "230 East 90th Street, Downstairs, (Betw 2nd &amp; 3rd Avenues) NY 10128",
+    "scheduleDetails": "Anniv. Last Sunday; every other month.",
+    "meetingInstances": [
+      {
+        "day": "Sundays",
+        "startTime": 1530,
+        "endTime": 1630,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7009
+      }
+    ],
+    "locationId": 7009
+  },
+  {
+    "address": "65 East 89th Street",
+    "meetingName": "CARNEGIE HILL - Carnegie Hill",
+    "meetingTitle": "St. Thomas More Church",
+    "fullLocation": "65 East 89th Street, Basement, (@ Park &amp; Madison Avenues) NY 10128",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Tuesdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7010
+      }
+    ],
+    "locationId": 7010
+  },
+  {
+    "address": "865 Madison Avenue",
+    "meetingName": "CENTRAL - Central I",
+    "meetingTitle": "St. James Episcopal Church",
+    "fullLocation": "865 Madison Avenue, Basement, (@ East 71st Street) NY 10021",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Sundays",
+        "startTime": 1700,
+        "endTime": 1745,
+        "meetingType": "O = Open meeting",
+        "specialInterest": "Meditation",
+        "locationId": 7011
+      },
+      {
+        "day": "Sundays",
+        "startTime": 1800,
+        "endTime": 1900,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7011
+      },
+      {
+        "day": "Sundays",
+        "startTime": 1800,
+        "endTime": 1900,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7011
+      },
+      {
+        "day": "Sundays",
+        "startTime": 1915,
+        "endTime": 2015,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7011
+      }
+    ],
+    "locationId": 7011
+  },
+  {
+    "address": "1296 Lexington Avenue",
+    "meetingName": "CHAPTER FIVE - Chapter Five     (:I)",
+    "meetingTitle": "Immanuel Lutheran Church",
+    "fullLocation": "1296 Lexington Avenue, Basement, (Enter through red door on Lexington Avenue, Betw 87th &amp; 88th Streets) NY 10128",
+    "scheduleDetails": "Fri.6:15=Women&apos;s Meeting",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 715,
+        "endTime": 815,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 7012
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 715,
+        "endTime": 815,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7012
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 715,
+        "endTime": 815,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7012
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 715,
+        "endTime": 815,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7012
+      },
+      {
+        "day": "Fridays",
+        "startTime": 715,
+        "endTime": 815,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7012
+      },
+      {
+        "day": "Sundays",
+        "startTime": 800,
+        "endTime": 900,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7012
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 800,
+        "endTime": 900,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7012
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1815,
+        "endTime": 1930,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "Women",
+        "locationId": 7012
+      },
+      {
+        "day": "Sundays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7012
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1930,
+        "endTime": 2100,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7012
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 2000,
+        "endTime": 2115,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 7012
+      }
+    ],
+    "locationId": 7012
+  },
+  {
+    "address": "351 East 74th Street",
+    "meetingName": "ELEVENTH STEP AT JAN HUS - Eleventh Step At Jan Hus",
+    "meetingTitle": "Jan Hus Church",
+    "fullLocation": "351 East 74th Street, Mazaryk Room, (Betw. 1st &amp; 2nd Avenues) NY 10021",
+    "scheduleDetails": "11th Step Meditation Meeting.",
+    "meetingInstances": [
+      {
+        "day": "Sundays",
+        "startTime": 900,
+        "endTime": 1000,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7013
+      }
+    ],
+    "locationId": 7013
+  },
+  {
+    "address": "1157 Lexington Avenue",
+    "meetingName": "FEARLESS -",
+    "meetingTitle": "All Souls Uniterian Church",
+    "fullLocation": "1157 Lexington Avenue, 1st Floor, (@ East 80th Street) 10028",
+    "scheduleDetails": "Topic Meeting",
+    "meetingInstances": [
+      {
+        "day": "Fridays",
+        "startTime": 1930,
+        "endTime": 2030,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7014
+      }
+    ],
+    "locationId": 7014
+  },
+  {
+    "address": "351 East 74th Street",
+    "meetingName": "FRIDAY CENTRAL -",
+    "meetingTitle": "Jan Hus Church",
+    "fullLocation": "351 East 74th Street, Mazaryk Room, (Betw. 1st &amp; 2nd Avenues) 10021",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Fridays",
+        "startTime": 1830,
+        "endTime": 1930,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7015
+      }
+    ],
+    "locationId": 7015
+  },
+  {
+    "address": "351 East 74th Street",
+    "meetingName": "FRIDAY NIGHT GAY MEN &amp; WOMEN - Friday Night Gay Men &amp; Women",
+    "meetingTitle": "Jan Hus Church",
+    "fullLocation": "351 East 74th Street, 2nd Floor, (Betw. 1st &amp; 2nd Avenues) NY 10021",
+    "scheduleDetails": "1st Step Gay & lesbian focus.  All are welcome.",
+    "meetingInstances": [
+      {
+        "day": "Fridays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "Gay, Lesbian and Bisexual",
+        "locationId": 7016
+      }
+    ],
+    "locationId": 7016
+  },
+  {
+    "address": "65 East 89th Street",
+    "meetingName": "FRIDAY NIGHT MEN&apos;S STEP - Friday Night Men&apos;s Step",
+    "meetingTitle": "St. Thomas More Church Rectory",
+    "fullLocation": "65 East 89th Street, (Betw Madison &amp; Park Avenues) NY 10128",
+    "scheduleDetails": "Men&apos;s Meeting",
+    "meetingInstances": [
+      {
+        "day": "Fridays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "Men",
+        "locationId": 7017
+      }
+    ],
+    "locationId": 7017
+  },
+  {
+    "address": "65 East 89th Street",
+    "meetingName": "HUMANISTS TOO -",
+    "meetingTitle": "Church of Saint Thomas Moore",
+    "fullLocation": "65 East 89th Street - Rectory basement, 10128 ",
+    "scheduleDetails": "Agnostic",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "Agnostic",
+        "specialInterest": "",
+        "locationId": 7018
+      }
+    ],
+    "locationId": 7018
+  },
+  {
+    "address": "351 East 74th Street",
+    "meetingName": "I&apos;M ALL IN -",
+    "meetingTitle": "Jan Hus Church",
+    "fullLocation": "351 East 74th Street, 2nd Floor, (Betw. 1st &amp; 2nd Avenues ) 10021",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Tuesdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7019
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7019
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7019
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7019
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7019
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7019
+      }
+    ],
+    "locationId": 7019
+  },
+  {
+    "address": "135 East 96th Street",
+    "meetingName": "INTO ACTION MANHATTAN - Into Action Manhattan",
+    "meetingTitle": "St. Francis de Sales Church",
+    "fullLocation": "135 East 96th Street, (between Lexington and Park Avenues) NY 10128",
+    "scheduleDetails": "lower level",
+    "meetingInstances": [
+      {
+        "day": "Wednesdays",
+        "startTime": 1830,
+        "endTime": 1930,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "Big Book Workshop",
+        "locationId": 7020
+      }
+    ],
+    "locationId": 7020
+  },
+  {
+    "address": "351 East 74th Street",
+    "meetingName": "KITCHEN TABLE MEETING -",
+    "meetingTitle": "Jan Hus Presbyterian Church",
+    "fullLocation": "351 East 74th Street, 2nd Floor Kitchen, (Betw. 1st &amp; 2nd Avenues) 10021",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Saturdays",
+        "startTime": 1100,
+        "endTime": 1200,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7021
+      }
+    ],
+    "locationId": 7021
+  },
+  {
+    "address": "2 East 90th Street",
+    "meetingName": "LENOX HILL - Lenox Hill",
+    "meetingTitle": "Church of the Heavenly Rest",
+    "fullLocation": "2 East 90th Street, (Betw 5th &amp; Madison Avenues) NY 10128",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7022
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7022
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "meetingType": "O = Open meeting",
+        "specialInterest": "",
+        "locationId": 7022
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 2015,
+        "endTime": 2100,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7022
+      },
+      {
+        "day": "Mondays",
+        "startTime": 2015,
+        "endTime": 2100,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7022
+      }
+    ],
+    "locationId": 7022
+  },
+  {
+    "address": "1157 Lexington Avenue",
+    "meetingName": "LEX 80 STEP -",
+    "meetingTitle": "All Souls Uniterian Church",
+    "fullLocation": "1157 Lexington Avenue, (Betw. 79th &amp; 80th Streets) 10028",
+    "scheduleDetails": "Southside Chapel",
+    "meetingInstances": [
+      {
+        "day": "Wednesdays",
+        "startTime": 1830,
+        "endTime": 1930,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "Twelve Steps",
+        "locationId": 7023
+      }
+    ],
+    "locationId": 7023
+  },
+  {
+    "address": "420 East 76th Street",
+    "meetingName": "LIVE AND LET LIVE - Live And Let Live",
+    "meetingTitle": "Gracie Square Hospital",
+    "fullLocation": "420 East 76th Street, (Betw. 1st &amp; York  Avenues) NY 10021",
+    "scheduleDetails": "Thurs=Topic Meeting, Check in with security at front desk. Gay & lesbian focus.  All are welcome.",
+    "meetingInstances": [
+      {
+        "day": "Tuesdays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "Gay, Lesbian and Bisexual",
+        "locationId": 7024
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "Gay, Lesbian and Bisexual",
+        "locationId": 7024
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 2030,
+        "endTime": 2130,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Gay, Lesbian and Bisexual",
+        "locationId": 7024
+      }
+    ],
+    "locationId": 7024
+  },
+  {
+    "address": "351 East 74th Street",
+    "meetingName": "MADISON 73 - Madison 73",
+    "meetingTitle": "Jan Hus Presbyterian Church",
+    "fullLocation": "351 East 74th Street, 2nd Floor, (Betw.1st &amp; 2nd Avenues) NY 10021",
+    "scheduleDetails": "All Meetings Are Non-Smoking.",
+    "meetingInstances": [
+      {
+        "day": "Saturdays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7025
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7025
+      }
+    ],
+    "locationId": 7025
+  },
+  {
+    "address": "351 East 74th Street",
+    "meetingName": "MEDITATION (EXPECT MIRACLES) - Meditation (Expect Miracles)",
+    "meetingTitle": "Jan Hus Church",
+    "fullLocation": "351 East 74th Street, 2nd Floor Chapel Room, (Betw. 1st &amp; 2nd Avenues) NY 10021",
+    "scheduleDetails": "All meetings are 11th Step Meditation format.",
+    "meetingInstances": [
+      {
+        "day": "Thursdays",
+        "startTime": 1100,
+        "endTime": 1200,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7026
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1100,
+        "endTime": 1200,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7026
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1100,
+        "endTime": 1200,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7026
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1100,
+        "endTime": 1200,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7026
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1100,
+        "endTime": 1200,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7026
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7026
+      }
+    ],
+    "locationId": 7026
+  },
+  {
+    "address": "1285 Madison Avenue",
+    "meetingName": "MEN&apos;S NYC BIG BOOK STEP STUDY -",
+    "meetingTitle": "Philomathist Center",
+    "fullLocation": "1285 Madison Avenue, 10128 ",
+    "scheduleDetails": "Ring Bell for entry",
+    "meetingInstances": [
+      {
+        "day": "Wednesdays",
+        "startTime": 1900,
+        "endTime": 2030,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 7027
+      }
+    ],
+    "locationId": 7027
+  },
+  {
+    "address": "48 East 84th Street",
+    "meetingName": "METROPOLITAN - Metropolitan",
+    "meetingTitle": "St. Ignatius Loyola School",
+    "fullLocation": "48 East 84th Street, (Betw Madison &amp; Park Avenues, On Saturday enter via Park Avenue Entrance) NY 10028",
+    "scheduleDetails": "Tue.6:30=Literature Topic,Sat=Meets in the Rectory. Wheel Chair Access on Tuesday & Sunday Only",
+    "meetingInstances": [
+      {
+        "day": "Saturdays",
+        "startTime": 1515,
+        "endTime": 1615,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "First Step Workshop",
+        "locationId": 7028
+      },
+      {
+        "day": "Sundays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7028
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1830,
+        "endTime": 1930,
+        "meetingType": "",
+        "specialInterest": "",
+        "locationId": 7028
+      },
+      {
+        "day": "Sundays",
+        "startTime": 1930,
+        "endTime": 2030,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7028
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1945,
+        "endTime": 2045,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7028
+      }
+    ],
+    "locationId": 7028
+  },
+  {
+    "address": "408 East 82nd Street",
+    "meetingName": "MONDAY EAST TOPIC - Monday East Topic",
+    "meetingTitle": "St. Stephen of Hungary Church",
+    "fullLocation": "408 East 82nd Street,  Rectory, (Betw 1st &amp; York Avenues) NY 10028",
+    "scheduleDetails": "Round Robin format & No Meeting on Legal Holidays.",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7029
+      }
+    ],
+    "locationId": 7029
+  },
+  {
+    "address": "351 East 74th Street",
+    "meetingName": "MONDAY WOMEN -",
+    "meetingTitle": "Jan Hus Church",
+    "fullLocation": "351 East 74th Street, 2nd Floor Front Room, (Betw. 1st &amp; 2nd Avenues) 10021",
+    "scheduleDetails": "AA Literature Topic Meeting & Open last Monday. Women&apos;s Meeting",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1915,
+        "endTime": 2015,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Women",
+        "locationId": 7030
+      }
+    ],
+    "locationId": 7030
+  },
+  {
+    "address": "351 East 74th Street",
+    "meetingName": "MORNING REFLECTIONS -",
+    "meetingTitle": "Jan Hus Church",
+    "fullLocation": "351 East 74th Street,  2nd Floor - Front Room, (Betw 1st &amp; 2nd Avenues) 10021",
+    "scheduleDetails": "Daily Reflections readings & round robin format Discussion",
+    "meetingInstances": [
+      {
+        "day": "Wednesdays",
+        "startTime": 930,
+        "endTime": 1030,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "Daily Reflections",
+        "locationId": 7031
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 930,
+        "endTime": 1030,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "Daily Reflections",
+        "locationId": 7031
+      },
+      {
+        "day": "Fridays",
+        "startTime": 930,
+        "endTime": 1030,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "Daily Reflections",
+        "locationId": 7031
+      },
+      {
+        "day": "Mondays",
+        "startTime": 930,
+        "endTime": 1030,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "Daily Reflections",
+        "locationId": 7031
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 930,
+        "endTime": 1030,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "Daily Reflections",
+        "locationId": 7031
+      }
+    ],
+    "locationId": 7031
+  },
+  {
+    "address": "125 East 85th Street",
+    "meetingName": "NEW CHOICES - New Choices",
+    "meetingTitle": "Congregational Kehilath Jeshurun",
+    "fullLocation": "125 East 85th Street, Ramaz School Entrance, (@ Lexington Avenue) NY 10028",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1830,
+        "endTime": 1930,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7032
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1830,
+        "endTime": 1930,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7032
+      }
+    ],
+    "locationId": 7032
+  },
+  {
+    "address": "351 East 74th Street",
+    "meetingName": "OPEN BOOK -",
+    "meetingTitle": "Jan Hus Church",
+    "fullLocation": "351 East 74th Street,  2nd Floor, Library Room, (Betw. 1st &amp; 2nd Avenues) 10021",
+    "scheduleDetails": "Big Book Study",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1915,
+        "endTime": 2015,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 7033
+      }
+    ],
+    "locationId": 7033
+  },
+  {
+    "address": "351 East 74th Street",
+    "meetingName": "OUR PRIMARY PURPOSE -",
+    "meetingTitle": "Jan Hus Church",
+    "fullLocation": "351 East 74th Street, 2nd Floor Kitchen, (Betw. 1st &amp; 2nd Avenues) 10021",
+    "scheduleDetails": "Women&apos;s Meeting.",
+    "meetingInstances": [
+      {
+        "day": "Saturdays",
+        "startTime": 930,
+        "endTime": 1030,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "Women",
+        "locationId": 7034
+      }
+    ],
+    "locationId": 7034
+  },
+  {
+    "address": "865 Madison Avenue",
+    "meetingName": "PARK BENCH   (:II) -",
+    "meetingTitle": "St. James Church",
+    "fullLocation": "865 Madison Avenue, 3rd Floor, (Betw. 71st &amp; 72nd Streets) 10021",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Wednesdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7035
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7035
+      }
+    ],
+    "locationId": 7035
+  },
+  {
+    "address": "62 East 92nd Street",
+    "meetingName": "PARK MADISON - Park Madison",
+    "meetingTitle": "Brick Church Parish House",
+    "fullLocation": "62 East 92nd Street, Basement, (Betw Madison &amp; Park Avenues) NY 10128",
+    "scheduleDetails": "Tue.8pm=Topic Round Robin, Anniv Last Fri.@ 6:45 Church Closed Friday; No Meetings In July & August All meetings are non-smoking.",
+    "meetingInstances": [
+      {
+        "day": "Fridays",
+        "startTime": 1845,
+        "endTime": 1945,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7036
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1845,
+        "endTime": 1945,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7036
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7036
+      },
+      {
+        "day": "Fridays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7036
+      }
+    ],
+    "locationId": 7036
+  },
+  {
+    "address": "351 East 74th Street",
+    "meetingName": "PERSEVERANCE - Perseverance",
+    "meetingTitle": "Jan Hus Church",
+    "fullLocation": "351 East 74th Street, 2nd Floor Front Room, (Betw. 1st &amp; 2nd Avenues) NY 10021",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Saturdays",
+        "startTime": 1100,
+        "endTime": 1200,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7037
+      }
+    ],
+    "locationId": 7037
+  },
+  {
+    "address": "420 East 87th Street",
+    "meetingName": "RECOVERY ROOM - Recovery Room",
+    "meetingTitle": "St. Joseph&apos;s School",
+    "fullLocation": "420 East 87th Street, Basement, (Betw 1st &amp; York Avenues) Enter thru Red Door NY 10128",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Wednesdays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7038
+      }
+    ],
+    "locationId": 7038
+  },
+  {
+    "address": "593 Park Avenue",
+    "meetingName": "RENEWAL EAST -",
+    "meetingTitle": "Central Presbyterian Church",
+    "fullLocation": "593 Park Avenue,  5th Floor Library, (@ 64th Street) 10128",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Wednesdays",
+        "startTime": 1830,
+        "endTime": 1930,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7039
+      }
+    ],
+    "locationId": 7039
+  },
+  {
+    "address": "65 East 89th Street",
+    "meetingName": "RENEWAL NORTH -",
+    "meetingTitle": "St. Thomas More Church",
+    "fullLocation": "65 East 89th Street, Ring Red Buzzer, Chelsea Room, (Betw. Park &amp; Madison Avenues) 10128",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Thursdays",
+        "startTime": 1830,
+        "endTime": 1930,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7040
+      }
+    ],
+    "locationId": 7040
+  },
+  {
+    "address": "865 Madison Avenue",
+    "meetingName": "RHINELANDER - Rhinelander",
+    "meetingTitle": "St. James Episcopal Church",
+    "fullLocation": "865 Madison Avenue,  Basement, (@ East 71st Street) NY 10021",
+    "scheduleDetails": "Mon.6pm & Thu.6pm Meetings end @ 6:50pm.",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1800,
+        "endTime": 1900,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7041
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1800,
+        "endTime": 1900,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7041
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7041
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7041
+      }
+    ],
+    "locationId": 7041
+  },
+  {
+    "address": "Church of the Good Shepard",
+    "meetingName": "ROOSEVELT ISLAND SERENITY -",
+    "meetingTitle": "",
+    "fullLocation": "Church of the Good Shepard, 543 Main St., Basement 10044, ",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Saturdays",
+        "startTime": 1830,
+        "endTime": 1930,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7042
+      }
+    ],
+    "locationId": 7042
+  },
+  {
+    "address": "413 East 79th Street",
+    "meetingName": "SEVENTY-NINTH STREET WORKSHOP - Seventy-Ninth Street Workshop    (:I)",
+    "meetingTitle": "St. Monica&apos;s Church",
+    "fullLocation": "413 East 79th Street,  Basement, (Betw 1st &amp; York Avenues) NY 10021",
+    "scheduleDetails": "Sun.10am=11th S, Tue.6am=Came To Believe Thu.6am=Step & Trad.",
+    "meetingInstances": [
+      {
+        "day": "Tuesdays",
+        "startTime": 600,
+        "endTime": 700,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Mondays",
+        "startTime": 600,
+        "endTime": 700,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Daily Reflections",
+        "locationId": 7043
+      },
+      {
+        "day": "Fridays",
+        "startTime": 600,
+        "endTime": 700,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 600,
+        "endTime": 700,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 600,
+        "endTime": 700,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "As Bill Sees It",
+        "locationId": 7043
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 715,
+        "endTime": 815,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Mondays",
+        "startTime": 715,
+        "endTime": 815,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Fridays",
+        "startTime": 715,
+        "endTime": 815,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 715,
+        "endTime": 815,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 715,
+        "endTime": 815,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 800,
+        "endTime": 900,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Sundays",
+        "startTime": 800,
+        "endTime": 900,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 830,
+        "endTime": 930,
+        "meetingType": "T = Tradition meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 830,
+        "endTime": 930,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Promises",
+        "locationId": 7043
+      },
+      {
+        "day": "Mondays",
+        "startTime": 830,
+        "endTime": 930,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Fridays",
+        "startTime": 830,
+        "endTime": 930,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 830,
+        "endTime": 930,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1000,
+        "endTime": 1100,
+        "meetingType": "T = Tradition meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1000,
+        "endTime": 1100,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1000,
+        "endTime": 1100,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1000,
+        "endTime": 1100,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 1000,
+        "endTime": 1100,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Children Welcome",
+        "locationId": 7043
+      },
+      {
+        "day": "Sundays",
+        "startTime": 1000,
+        "endTime": 1100,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1000,
+        "endTime": 1100,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Sundays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 1400,
+        "endTime": 1500,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Women",
+        "locationId": 7043
+      },
+      {
+        "day": "Sundays",
+        "startTime": 1400,
+        "endTime": 1500,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Men",
+        "locationId": 7043
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1600,
+        "endTime": 1700,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "First Step Workshop",
+        "locationId": 7043
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1600,
+        "endTime": 1700,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1600,
+        "endTime": 1700,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1600,
+        "endTime": 1700,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1600,
+        "endTime": 1700,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 1600,
+        "endTime": 1700,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "Steps 1-2-3",
+        "locationId": 7043
+      },
+      {
+        "day": "Sundays",
+        "startTime": 1600,
+        "endTime": 1700,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "As Bill Sees It",
+        "locationId": 7043
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Children Welcome",
+        "locationId": 7043
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "O = Open meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "T = Tradition meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Sundays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Sundays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Promises",
+        "locationId": 7043
+      },
+      {
+        "day": "Fridays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Sponsorship Workshop",
+        "locationId": 7043
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "O = Open meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 2200,
+        "endTime": 2300,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Sundays",
+        "startTime": 2200,
+        "endTime": 2300,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Fridays",
+        "startTime": 2200,
+        "endTime": 2300,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 2200,
+        "endTime": 2300,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 2200,
+        "endTime": 2300,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Mondays",
+        "startTime": 2200,
+        "endTime": 2300,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 2200,
+        "endTime": 2300,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7043
+      }
+    ],
+    "locationId": 7043
+  },
+  {
+    "address": "351 East 74th Street",
+    "meetingName": "SOBER WOMEN - Sober Women",
+    "meetingTitle": "Jan Hus Church",
+    "fullLocation": "351 East 74th Street, Sanctuary, (Betw. 1st &amp; 2nd Avenues) NY 10021",
+    "scheduleDetails": "Women&apos;s Meeting",
+    "meetingInstances": [
+      {
+        "day": "Saturdays",
+        "startTime": 915,
+        "endTime": 1015,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Women",
+        "locationId": 7044
+      }
+    ],
+    "locationId": 7044
+  },
+  {
+    "address": "310 East 67th Street",
+    "meetingName": "STEP BY STEP - Step By Step",
+    "meetingTitle": "New York Blood Center",
+    "fullLocation": "310 East 67th Street, Auditorium, (Betw. 1st &amp; 2nd Avenues) NY 10065",
+    "scheduleDetails": "Non-Smoking Meeting.",
+    "meetingInstances": [
+      {
+        "day": "Saturdays",
+        "startTime": 1000,
+        "endTime": 1100,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7045
+      }
+    ],
+    "locationId": 7045
+  },
+  {
+    "address": "331 E 70th St",
+    "meetingName": "SUNDAY ON 70TH - Sunday On 70th",
+    "meetingTitle": "Lenox Hill Neighborhood House",
+    "fullLocation": "331 E 70th St, (Betw 1st &amp; 2nd Avenues) NY 10021",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Sundays",
+        "startTime": 1000,
+        "endTime": 1100,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7046
+      }
+    ],
+    "locationId": 7046
+  },
+  {
+    "address": "411 East 68th Street",
+    "meetingName": "SUTTON - Sutton",
+    "meetingTitle": "Church of St. Catherine of Siena",
+    "fullLocation": "411 East 68th Street, (Betw. York &amp; 1st Avenues) NY 10021",
+    "scheduleDetails": "Enter through Parish House",
+    "meetingInstances": [
+      {
+        "day": "Saturdays",
+        "startTime": 1830,
+        "endTime": 1930,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7047
+      }
+    ],
+    "locationId": 7047
+  },
+  {
+    "address": "2 East 90th Street",
+    "meetingName": "THREE TWELVES - Three Twelves",
+    "meetingTitle": "Church of the Heavenly Rest",
+    "fullLocation": "2 East 90th Street, Basement, (Enter thru the Family Chapel on 5th Avenue) NY 10128",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Tuesdays",
+        "startTime": 1200,
+        "endTime": 1300,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7048
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1200,
+        "endTime": 1300,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7048
+      }
+    ],
+    "locationId": 7048
+  },
+  {
+    "address": "341 East 87th Street",
+    "meetingName": "TRINITY - Trinity",
+    "meetingTitle": "Holy Trinity Church",
+    "fullLocation": "341 East 87th Street,  Choir Room (Ring Bell), (Btw. 1st &amp; 2nd Avenues) NY 10128",
+    "scheduleDetails": "Anniv Last Tuesday @ 7:15pm All meetings are non-smoking. Last Fri. @ 7PM = T",
+    "meetingInstances": [
+      {
+        "day": "Fridays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 7049
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1915,
+        "endTime": 2015,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7049
+      },
+      {
+        "day": "Fridays",
+        "startTime": 2030,
+        "endTime": 2130,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 7049
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 2030,
+        "endTime": 2130,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7049
+      }
+    ],
+    "locationId": 7049
+  },
+  {
+    "address": "351 East 74th Street",
+    "meetingName": "WE HUMANISTS - We Humanists",
+    "meetingTitle": "Jan Hus Church",
+    "fullLocation": "351 East 74th Street,  2nd Floor Museum Room, (Betw 1st &amp; 2nd Avenues) NY 10021",
+    "scheduleDetails": "No prayers & a Non-Smoking Meeting.",
+    "meetingInstances": [
+      {
+        "day": "Wednesdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Agnostic",
+        "locationId": 7050
+      }
+    ],
+    "locationId": 7050
+  },
+  {
+    "address": "351 East 74th Street",
+    "meetingName": "WEDNESDAY EAST ON THURSDAY - Wednesday East",
+    "meetingTitle": "Jan Hus Church",
+    "fullLocation": "351 East 74th Street, 2nd Floor Kitchen, (Betw. 1st &amp; 2nd Avenues) NY 10021",
+    "scheduleDetails": "Round Robin format",
+    "meetingInstances": [
+      {
+        "day": "Thursdays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7051
+      }
+    ],
+    "locationId": 7051
+  },
+  {
+    "address": "351 East 74th Street",
+    "meetingName": "YORKVILLE-BUTTERFIELD - Yorkville",
+    "meetingTitle": "Jan Hus Church",
+    "fullLocation": "351 East 74th Street,  2nd Floor,  Masaryk Room, (Betw 1st &amp; 2nd Avenues) NY 10021",
+    "scheduleDetails": "Non-Smoking Meeting.",
+    "meetingInstances": [
+      {
+        "day": "Thursdays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 7052
+      }
+    ],
+    "locationId": 7052
+  }
+]

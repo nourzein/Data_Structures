@@ -1,4 +1,5 @@
 // npm install cheerio
+var request = require('request');
 var fs = require('fs');
 var cheerio = require('cheerio');
 
@@ -29,9 +30,7 @@ $('tbody tbody tbody').children().each(function(i, elem) {
           let scheduleDetails= $(td).find(".detailsBox").text().replace("\'s", "&apos;s").trim();   
           let meetingInstances=[];
         //   if ((scheduleDetails)==='') return;      //why zero doesn't work but empty string does?
-            aMeeting= { 
-                address, meetingName, meetingTitle, fullLocation, scheduleDetails, meetingInstances
-                }
+        
       }
 
       if (i === 1) {
@@ -54,7 +53,7 @@ $('tbody tbody tbody').children().each(function(i, elem) {
             timeData[1]= hhmm[0] + hhmm[1];
             // console.log(+timeData[1])
            
-            aMeeting.meetingInstances.push( {
+            meetingInstances.push( {
                 day: dayN,
                 startTime: +timeData[0],
                 endTime: +timeData[1],
@@ -65,34 +64,34 @@ $('tbody tbody tbody').children().each(function(i, elem) {
                      //create IDs 
 
         });
-      meetings.push(aMeeting);
+      meetings.push(meetingInstances);
      }
   
 });
 
-//  console.log(id)
+ console.log(meetings)
 
 
 });
 
 
-const zone = 6;
-let id= (zone*1000)
-let r= (zone*1000)
+// const zone = 6;
+// let id= (zone*1000)
+// let r= (zone*1000)
 
-for (let i=0; i<meetings.length; i++) {
-    meetings[i]["locationId"]= id;
+// for (let i=0; i<meetings.length; i++) {
+//     meetings[i]["locationId"]= id;
       
- let meetingInstances = meetings[i].meetingInstances;
-//   console.log(id,meetingInstances);
-  for (let i=0;i<meetingInstances.length;i++) {
-      meetingInstances[i]["locationId"]=id;
-    //   console.log(id,meetingInstances[i])
+//  let meetingInstances = meetings[i].meetingInstances;
+// //   console.log(id,meetingInstances);
+//   for (let i=0;i<meetingInstances.length;i++) {
+//       meetingInstances[i]["locationId"]=id;
+//     //   console.log(id,meetingInstances[i])
     
-  }
-  id ++;
-}
+//   }
+//   id ++;
+// }
 
 
 
-fs.writeFileSync('/home/ec2-user/environment/results06.json', JSON.stringify(meetings, null, 2));
+// fs.writeFileSync('/home/ec2-user/environment/meetingResults06.json', JSON.stringify(meetings, null, 2));

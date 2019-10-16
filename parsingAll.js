@@ -1,20 +1,23 @@
-// npm install cheerio
-var fs = require('fs');
-var cheerio = require('cheerio');
+const fs = require('fs');
+const cheerio = require('cheerio');
+var async = require('async');
 
-// load the thesis text file into a variable, `content`
-// this is the file that we created in the starter code from last week
-//array function
-var content = fs.readFileSync('./data/AA06.txt');
-
-// load `content` into a cheerio object
-var $ = cheerio.load(content);
+let zones = ['01','02','03','04','05','06','07','08','09','10']
+//let content = fs.readFileSync('./data/AA0'+value + '.txt');
+//if (i=== zones.length) {
+//     fs.writeFileSync('./files/' + value + '.json',JSON.stringify(meetings));
+//}
 
 
-// write the project titles to a text file
-var meetings = []; // this variable will hold the lines of text
+async.eachSeries(zones, 
+
+function(value, callback) {   
+  
+  let content = fs.readFileSync('./data/AA'+value + '.txt');
+  let $ = cheerio.load(content);
+  
+let meetings = []; 
 let aMeeting;
-
 $('tbody tbody tbody').children().each(function(i, elem) {
     
     $(elem).find("td").each(function(i, td) {
@@ -52,7 +55,6 @@ $('tbody tbody tbody').children().each(function(i, elem) {
             hhmm=timeData[1].split(/[: ]/);
             hhmm[0] = (hhmm[2] === 'PM' && hhmm[0] !== "12") ? +hhmm[0]+12 : +hhmm[0] ;
             timeData[1]= hhmm[0] + hhmm[1];
-            // console.log(+timeData[1])
            
             aMeeting.meetingInstances.push( {
                 day: dayN,
@@ -62,7 +64,6 @@ $('tbody tbody tbody').children().each(function(i, elem) {
                 specialInterest: (timeData[3]) ? timeData[3] : "",
                     }
                     );
-                     //create IDs 
 
         });
       meetings.push(aMeeting);
@@ -70,16 +71,9 @@ $('tbody tbody tbody').children().each(function(i, elem) {
   
 });
 
-//  console.log(id)
-
-
 });
 
-
-const zone = 6;
-let id= (zone*1000)
-let r= (zone*1000)
-
+let id= (value*1000)
 for (let i=0; i<meetings.length; i++) {
     meetings[i]["locationId"]= id;
       
@@ -93,6 +87,20 @@ for (let i=0; i<meetings.length; i++) {
   id ++;
 }
 
+    fs.writeFileSync('AA' + value + '.json', JSON.stringify(meetings, null, 2));
+    console.log('*** *** *** *** ***'); // simply to see theoutput well
+    console.log('Number of meetings in this zone: ');
+    console.log(meetings.length); // see how many meetings were done
+
+setTimeout(callback, 2000);
+}); 
 
 
-fs.writeFileSync('/home/ec2-user/environment/results06.json', JSON.stringify(meetings, null, 2));
+
+
+
+
+
+
+
+

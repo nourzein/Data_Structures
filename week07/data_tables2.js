@@ -19,15 +19,12 @@ db_credentials.port = 5432;
 var address_AA06= fs.readFileSync('./geolocationResults06.json')
 var addressesForDb = JSON.parse(address_AA06);
 
-// console.log(addressesForDb);// check how it looks--> good!
-
-// add lat long and address inside database table "aalocations"
 async.eachSeries(addressesForDb, function(value, callback) {
     // if (value.locationId !== 6001) return;
     // value.scheduleDetails.replace("'", "&apos;");
     const client = new Client(db_credentials);
     client.connect();
-    var thisQuery = "INSERT INTO AAMeetings VALUES (E'" + value.address + "', '" + value.meetingName + "', '" + value.meetingTitle + "', '" + value.fullLocation + "',  '" + value.scheduleDetails + "', " + value.locationId + ", " + value.latitude + ", " + value.longitude + ");"; //how to get into the object here?
+    var thisQuery = "INSERT INTO AAMeetings VALUES (E'" + value.address + "', '" + value.meetingName + "', '" + value.meetingInstances + "', '" + value.meetingTitle + "', '" + value.fullLocation + "',  '" + value.scheduleDetails + "', " + value.locationId + ", " + value.latitude + ", " + value.longitude + ");"; //how to get into the object here?
     client.query(thisQuery, (err, res) => {
         console.log(err, res);
         client.end();

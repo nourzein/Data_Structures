@@ -12,7 +12,6 @@ var params = {
     "#tp = :topicName and dt between :minDate and :maxDate", // the query expression
     ExpressionAttributeNames: { // name substitution, used for reserved words in DynamoDB
         "#tp" : "topic"
-        
     },
     ExpressionAttributeValues: { // the query values
         ":topicName": { S: "Data Structures Homework"},
