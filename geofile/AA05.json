@@ -1,0 +1,1442 @@
+[
+  {
+    "address": "122 East 37th Street",
+    "meetingName": "AA LITERATURE - AA Literature",
+    "meetingTitle": "",
+    "fullLocation": "122 East 37th Street, Basement, (Betw Park &amp; Lexington Avenues) NY 10016",
+    "scheduleDetails": "FRONT BASEMENT ONLY",
+    "meetingInstances": [
+      {
+        "day": "Sundays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5000
+      }
+    ],
+    "locationId": 5000,
+    "latitude": 40.7483929,
+    "longitude": -73.9787906
+  },
+  {
+    "address": "30 East 35th Street",
+    "meetingName": "BREAKFAST CLUB - Breakfast Club",
+    "meetingTitle": "",
+    "fullLocation": "30 East 35th Street, (Betw Madison &amp; Park Avenues) NY 10016",
+    "scheduleDetails": "All meetings are Round Robin format except Thursday. Tue=Alternating Step/Trad.",
+    "meetingInstances": [
+      {
+        "day": "Tuesdays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5001
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5001
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "O = Open meeting",
+        "specialInterest": "",
+        "locationId": 5001
+      },
+      {
+        "day": "Fridays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5001
+      },
+      {
+        "day": "Mondays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5001
+      }
+    ],
+    "locationId": 5001,
+    "latitude": 40.7496221,
+    "longitude": -73.9855348
+  },
+  {
+    "address": "350 East 56th Street",
+    "meetingName": "CARLYLE - Carlyle",
+    "meetingTitle": "Cathedral High School",
+    "fullLocation": "350 East 56th Street, (Betw 1st  &amp; 2nd Avenues) NY 10022",
+    "scheduleDetails": "3rd Floor library",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1745,
+        "endTime": 1845,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5002
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1745,
+        "endTime": 1845,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5002
+      }
+    ],
+    "locationId": 5002,
+    "latitude": 40.757654,
+    "longitude": -73.963834
+  },
+  {
+    "address": "619 Lexington Avenue",
+    "meetingName": "CITY GROUP - Citikorp",
+    "meetingTitle": "St. Peter&apos;s Lutheran Church @ Citicorp Center",
+    "fullLocation": "619 Lexington Avenue, Lower Level Music Rooms, (Enter on 54th Street, Betw. Lexington &amp; 3rd Avenues) NY 10022",
+    "scheduleDetails": "T -7:30am last Mon., Anniv -12:30 Last Thursday",
+    "meetingInstances": [
+      {
+        "day": "Thursdays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5003
+      },
+      {
+        "day": "Mondays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5003
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5003
+      },
+      {
+        "day": "Fridays",
+        "startTime": 745,
+        "endTime": 845,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5003
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5003
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5003
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5003
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "O = Open meeting",
+        "specialInterest": "",
+        "locationId": 5003
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5003
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5003
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5003
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5003
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 5003
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5003
+      }
+    ],
+    "locationId": 5003,
+    "latitude": 40.6894374,
+    "longitude": -73.9367705
+  },
+  {
+    "address": "122 East 37th Street",
+    "meetingName": "COURAGE TO CHANGE - Courage To Change",
+    "meetingTitle": "",
+    "fullLocation": "122 East 37th Street, Basement, (Betw. Park &amp; Lexington Avenues ) NY 10016",
+    "scheduleDetails": "Wed.6:15 BB=OD Big Book Study Fri.7:30pm=Anniv. Meeting every Fri.",
+    "meetingInstances": [
+      {
+        "day": "Sundays",
+        "startTime": 1245,
+        "endTime": 1345,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "First Step Workshop",
+        "locationId": 5004
+      },
+      {
+        "day": "Sundays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5004
+      },
+      {
+        "day": "Sundays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Promises",
+        "locationId": 5004
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5004
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5004
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5004
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 5004
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5004
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5004
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5004
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1930,
+        "endTime": 2030,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5004
+      }
+    ],
+    "locationId": 5004,
+    "latitude": 40.7483929,
+    "longitude": -73.9787906
+  },
+  {
+    "address": "28 East 35th Street",
+    "meetingName": "EMPIRE STATE - Empire State",
+    "meetingTitle": "J.H. Holmes Community House",
+    "fullLocation": "28 East 35th Street, upstairs, through red door, 1st room on right NY 10016",
+    "scheduleDetails": "T Last Wednesday",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1215,
+        "endTime": 1315,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5005
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1215,
+        "endTime": 1315,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5005
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1215,
+        "endTime": 1315,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5005
+      }
+    ],
+    "locationId": 5005,
+    "latitude": 40.7496065,
+    "longitude": -73.9854965
+  },
+  {
+    "address": "350 East 56th Street",
+    "meetingName": "GOTHAM - Gotham",
+    "meetingTitle": "Cathedral High School",
+    "fullLocation": "350 East 56th Street , 56th Street &amp; First Avenue, 3rd Floor Library NY 10022",
+    "scheduleDetails": "Beginners Meeting 2nd & 4th Sunday Step Meeting 1st &3rd Sunday",
+    "meetingInstances": [
+      {
+        "day": "Sundays",
+        "startTime": 1730,
+        "endTime": 1830,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5006
+      },
+      {
+        "day": "Sundays",
+        "startTime": 1730,
+        "endTime": 1830,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5006
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1745,
+        "endTime": 1845,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5006
+      }
+    ],
+    "locationId": 5006,
+    "latitude": 40.757654,
+    "longitude": -73.963834
+  },
+  {
+    "address": "283 Lexington Avenue",
+    "meetingName": "GRAND CENTRAL - Grand Central",
+    "meetingTitle": "Soldiers, Sailors, Marines &amp; Airmen&apos;s Club",
+    "fullLocation": "283 Lexington Avenue, 2nd Floor, (Betw 36th &amp; 37th Streets) NY 10016",
+    "scheduleDetails": "T=Last Tuesday, Fri=Anniv. 2nd to Last Friday. All meetings are non-smoking.",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1730,
+        "endTime": 1830,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5007
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1730,
+        "endTime": 1830,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5007
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1730,
+        "endTime": 1830,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "First Step Workshop",
+        "locationId": 5007
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1730,
+        "endTime": 1830,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 5007
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1730,
+        "endTime": 1830,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5007
+      }
+    ],
+    "locationId": 5007,
+    "latitude": 40.7479969,
+    "longitude": -73.9783809
+  },
+  {
+    "address": "122 East 37th Street",
+    "meetingName": "GRUPO BRASIL -",
+    "meetingTitle": "",
+    "fullLocation": "122 East 37th Street, Basement, (Betw. Park &amp; Lexington Avenues) 10016",
+    "scheduleDetails": "Portugese speaking meeting.",
+    "meetingInstances": [
+      {
+        "day": "Wednesdays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5008
+      },
+      {
+        "day": "Fridays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5008
+      }
+    ],
+    "locationId": 5008,
+    "latitude": 40.7483929,
+    "longitude": -73.9787906
+  },
+  {
+    "address": "619 Lexington Avenue",
+    "meetingName": "LIFE LINE - Life Line",
+    "meetingTitle": "St. Peter&apos;s Lutheran Church @ CitiCorp Center",
+    "fullLocation": "619 Lexington Avenue, Lower Level 2 in The Studio, (Enter on 54th Street, Betw. Lexington &amp; 3rd Avenues) NY 10022",
+    "scheduleDetails": "All meetings are non-smoking.",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1730,
+        "endTime": 1830,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5009
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1730,
+        "endTime": 1830,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5009
+      }
+    ],
+    "locationId": 5009,
+    "latitude": 40.7588016,
+    "longitude": -73.9704542
+  },
+  {
+    "address": "141 East 43rd Street",
+    "meetingName": "LUNCH BUNCH - Lunch Bunch",
+    "meetingTitle": "Saint Agnes Church",
+    "fullLocation": "141 East 43rd Street, Basement Hall, elevator is available., (Betw. Lexington &amp; 3rd Avenues) NY 10017",
+    "scheduleDetails": "Enter main Church entrance, turn left, meeting is downstairs. T 3rd Wed. Open Anniv. or Open Disc. Meeting last Fri.",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5010
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5010
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5010
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5010
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5010
+      }
+    ],
+    "locationId": 5010,
+    "latitude": 40.7518754,
+    "longitude": -73.9747248
+  },
+  {
+    "address": "122 E 37TH St",
+    "meetingName": "LUNCHTIME EXPRESS AT THE MUSTARD SEED -",
+    "meetingTitle": "MUSTARD SEED",
+    "fullLocation": "122 E 37TH St., Btw. Park and Lexington 10016",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Wednesdays",
+        "startTime": 1230,
+        "endTime": 1315,
+        "meetingType": "O = Open meeting",
+        "specialInterest": "",
+        "locationId": 5011
+      }
+    ],
+    "locationId": 5011,
+    "latitude": 40.7483929,
+    "longitude": -73.9787906
+  },
+  {
+    "address": "122 East 37th Street",
+    "meetingName": "MEDITATION SATURDAY NIGHT - Meditation Saturday Night",
+    "meetingTitle": "Mustard Seed",
+    "fullLocation": "122 East 37th Street, (Betw. Park &amp; Lexington Avenues) NY 10016",
+    "scheduleDetails": "11th S Meditation ENT BASEMENT ONLY",
+    "meetingInstances": [
+      {
+        "day": "Saturdays",
+        "startTime": 1930,
+        "endTime": 2030,
+        "meetingType": "Eleventh Step Meditation",
+        "specialInterest": "",
+        "locationId": 5012
+      }
+    ],
+    "locationId": 5012,
+    "latitude": 40.7483929,
+    "longitude": -73.9787906
+  },
+  {
+    "address": "141 East 43rd Street",
+    "meetingName": "MONDAY MEN - Monday Men",
+    "meetingTitle": "St. Agnes Church",
+    "fullLocation": "141 East 43rd Street, (Betw. Lexington &amp; 3rd Avenues) NY 10017",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5013
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5013
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1915,
+        "endTime": 2015,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5013
+      }
+    ],
+    "locationId": 5013,
+    "latitude": 40.7518754,
+    "longitude": -73.9747248
+  },
+  {
+    "address": "209 Madison Avenue",
+    "meetingName": "MURRAY HILL - Murray Hill",
+    "meetingTitle": "Church of the Incarnation",
+    "fullLocation": "209 Madison Avenue, 2nd Floor, (Enter through side door @ 35th Street NY 10016",
+    "scheduleDetails": "No Meetings on Legal Holidays.",
+    "meetingInstances": [
+      {
+        "day": "Mondays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5014
+      }
+    ],
+    "locationId": 5014,
+    "latitude": 40.7486487,
+    "longitude": -73.9821254
+  },
+  {
+    "address": "122 East 37th Street",
+    "meetingName": "MUSTARD SEED - Mustard Seed     (:I)",
+    "meetingTitle": "",
+    "fullLocation": "122 East 37th Street,  Basement, (Betw Park &amp; Lexington Avenues) NY 10016",
+    "scheduleDetails": "Sun.7:30am,Tue.6:15pm B & Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude",
+    "meetingInstances": [
+      {
+        "day": "Tuesdays",
+        "startTime": 615,
+        "endTime": 715,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Mondays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Sundays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Mondays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Fridays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 800,
+        "endTime": 900,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 800,
+        "endTime": 900,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 800,
+        "endTime": 900,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Sundays",
+        "startTime": 815,
+        "endTime": 915,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 930,
+        "endTime": 1030,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Daily Reflections",
+        "locationId": 5015
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 930,
+        "endTime": 1030,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Daily Reflections",
+        "locationId": 5015
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 930,
+        "endTime": 1030,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Daily Reflections",
+        "locationId": 5015
+      },
+      {
+        "day": "Mondays",
+        "startTime": 930,
+        "endTime": 1030,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Daily Reflections",
+        "locationId": 5015
+      },
+      {
+        "day": "Sundays",
+        "startTime": 930,
+        "endTime": 1030,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Sundays",
+        "startTime": 930,
+        "endTime": 1030,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 930,
+        "endTime": 1030,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Fridays",
+        "startTime": 930,
+        "endTime": 1030,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Daily Reflections",
+        "locationId": 5015
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 1000,
+        "endTime": 1100,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Sundays",
+        "startTime": 1100,
+        "endTime": 1200,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1130,
+        "endTime": 1230,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1130,
+        "endTime": 1230,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1130,
+        "endTime": 1230,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1130,
+        "endTime": 1230,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1130,
+        "endTime": 1230,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 1245,
+        "endTime": 1345,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1245,
+        "endTime": 1345,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1245,
+        "endTime": 1345,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1245,
+        "endTime": 1345,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1245,
+        "endTime": 1345,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1245,
+        "endTime": 1345,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Sundays",
+        "startTime": 1245,
+        "endTime": 1345,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "First Step Workshop",
+        "locationId": 5015
+      },
+      {
+        "day": "Sundays",
+        "startTime": 1500,
+        "endTime": 1600,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Women",
+        "locationId": 5015
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1515,
+        "endTime": 1615,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1515,
+        "endTime": 1615,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1515,
+        "endTime": 1615,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1515,
+        "endTime": 1615,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1515,
+        "endTime": 1615,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 1730,
+        "endTime": 1830,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Sundays",
+        "startTime": 1815,
+        "endTime": 1900,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1930,
+        "endTime": 2030,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 1930,
+        "endTime": 2030,
+        "meetingType": "Meditation",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Tuesdays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Sundays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Thursdays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Men",
+        "locationId": 5015
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      },
+      {
+        "day": "Mondays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "Women",
+        "locationId": 5015
+      },
+      {
+        "day": "Fridays",
+        "startTime": 2200,
+        "endTime": 2300,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5015
+      }
+    ],
+    "locationId": 5015,
+    "latitude": 40.7483929,
+    "longitude": -73.9787906
+  },
+  {
+    "address": "619 Lexington Avenue",
+    "meetingName": "REBELLION DOGS -",
+    "meetingTitle": "St. Peter&apos;s Lutheran Church @ CitiCorp Center",
+    "fullLocation": "619 Lexington Avenue, Lower Level, (Enter on 54th Street, Betw. Lexington &amp; 3rd Avenues) 10022",
+    "scheduleDetails": "Living Sober",
+    "meetingInstances": [
+      {
+        "day": "Tuesdays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Living Sober",
+        "locationId": 5016
+      }
+    ],
+    "locationId": 5016,
+    "latitude": 40.7588016,
+    "longitude": -73.9704542
+  },
+  {
+    "address": "240 East 31st Street",
+    "meetingName": "SATURDAY EAST - Saturday East",
+    "meetingTitle": "Church of the Good Shepherd",
+    "fullLocation": "240 East 31st Street, NY 10016 ",
+    "scheduleDetails": "Focus is on members under 60 days.  All are welcome. Anniversaries last week of month",
+    "meetingInstances": [
+      {
+        "day": "Saturdays",
+        "startTime": 1600,
+        "endTime": 1700,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5017
+      }
+    ],
+    "locationId": 5017,
+    "latitude": 40.6447249,
+    "longitude": -73.948097
+  },
+  {
+    "address": "114 East 35th Street",
+    "meetingName": "SATURDAY STEP - Saturday Step",
+    "meetingTitle": "The New York New Church",
+    "fullLocation": "114 East 35th Street, 2nd Floor, (Betw. Park &amp; Lexington Avenues) NY 10016",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Saturdays",
+        "startTime": 1000,
+        "endTime": 1100,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5018
+      }
+    ],
+    "locationId": 5018,
+    "latitude": 40.7473169,
+    "longitude": -73.9800724
+  },
+  {
+    "address": "230 East 60th Street (Basement)",
+    "meetingName": "SERENITY EAST - Serenity East",
+    "meetingTitle": "ALL SAINTS CHURCH",
+    "fullLocation": "230 East 60th Street (Basement) , (Betw 2nd &amp; 3rd Avenues) NY 10022",
+    "scheduleDetails": "Fri.6:30=Steps 3 & 11",
+    "meetingInstances": [
+      {
+        "day": "Tuesdays",
+        "startTime": 730,
+        "endTime": 830,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 5019
+      },
+      {
+        "day": "Fridays",
+        "startTime": 1830,
+        "endTime": 1930,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5019
+      },
+      {
+        "day": "Fridays",
+        "startTime": 2000,
+        "endTime": 2100,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5019
+      }
+    ],
+    "locationId": 5019,
+    "latitude": 40.7615607,
+    "longitude": -73.9649474
+  },
+  {
+    "address": "244 East 58th Street",
+    "meetingName": "SERENITY EAST (:I) -",
+    "meetingTitle": "Caron Foundation",
+    "fullLocation": "244 East 58th Street, (Between 2nd and 3rd Avenues) 10022",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Tuesdays",
+        "startTime": 1730,
+        "endTime": 1830,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 5020
+      }
+    ],
+    "locationId": 5020,
+    "latitude": 40.7600925,
+    "longitude": -73.9653811
+  },
+  {
+    "address": "619 Lexington Avenue",
+    "meetingName": "SILKWORTH WOMEN&apos;S - Silkworth Women&apos;s",
+    "meetingTitle": "St. Peter&apos;s Lutheran Church @ CitiCorp Center",
+    "fullLocation": "619 Lexington Avenue, Lower Level, (Enter on 54th Street, Betw. Lexington &amp; 3rd Avenues) NY 10022",
+    "scheduleDetails": "Women&apos;s Meeting.",
+    "meetingInstances": [
+      {
+        "day": "Thursdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Women",
+        "locationId": 5021
+      }
+    ],
+    "locationId": 5021,
+    "latitude": 40.6894374,
+    "longitude": -73.9367705
+  },
+  {
+    "address": "325 Park Avenue",
+    "meetingName": "ST. BART&apos;S TWELVE-THIRTIES - St. Bart&apos;s Twelve-Thirties",
+    "meetingTitle": "St. Bartholomew&apos;s Church",
+    "fullLocation": "325 Park Avenue, (Betw. East 50th &amp; 51st Streets) NY 10022",
+    "scheduleDetails": "Anniv. Last Mon., T-Last Wed., Topic-Last Fri. All meetings are OPEN to Public NOTE: Monday & Wednesday in Choir Room. Friday in Vestry Room. Also check the Board at Church entrance.",
+    "meetingInstances": [
+      {
+        "day": "Fridays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "BB = Big Book meeting",
+        "specialInterest": "",
+        "locationId": 5022
+      },
+      {
+        "day": "Mondays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5022
+      },
+      {
+        "day": "Wednesdays",
+        "startTime": 1230,
+        "endTime": 1330,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5022
+      }
+    ],
+    "locationId": 5022,
+    "latitude": 40.7574552,
+    "longitude": -73.9733937
+  },
+  {
+    "address": "236 EAST 31st STREET",
+    "meetingName": "STRAIGHT 12 -",
+    "meetingTitle": "CHURCH OF THE GOOD SHEPARD",
+    "fullLocation": "236 EAST 31st STREET ,basement, BETWEEN 2nd and 3rd AVENUES 10016",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Saturdays",
+        "startTime": 1800,
+        "endTime": 1900,
+        "meetingType": "C = Closed Discussion meeting",
+        "specialInterest": "Promises",
+        "locationId": 5023
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 1915,
+        "endTime": 2015,
+        "meetingType": "B = Beginners meeting",
+        "specialInterest": "",
+        "locationId": 5023
+      },
+      {
+        "day": "Saturdays",
+        "startTime": 2030,
+        "endTime": 2130,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5023
+      }
+    ],
+    "locationId": 5023,
+    "latitude": 40.6448323,
+    "longitude": -73.9481079
+  },
+  {
+    "address": "308 East 55th Street",
+    "meetingName": "TEMPLETON - Templeton",
+    "meetingTitle": "Conservative Synagogue",
+    "fullLocation": "308 East 55th Street, (Betw 1st &amp; 2nd Avenues) NY 10022",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Wednesdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5024
+      }
+    ],
+    "locationId": 5024,
+    "latitude": 40.6501686,
+    "longitude": -73.9254937
+  },
+  {
+    "address": "244 East 58th Street",
+    "meetingName": "TRAFALGAR - Trafalgar",
+    "meetingTitle": "The Caron Foundation",
+    "fullLocation": "244 East 58th Street, (Betw. 2nd &amp; 3rd Avenues) NY 10022",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Tuesdays",
+        "startTime": 1845,
+        "endTime": 1945,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5025
+      }
+    ],
+    "locationId": 5025,
+    "latitude": 40.7600925,
+    "longitude": -73.9653811
+  },
+  {
+    "address": "244 East 58th Street",
+    "meetingName": "TUDOR - Tudor",
+    "meetingTitle": "Caron Foundation",
+    "fullLocation": "244 East 58th Street, Lower Level, (Betw. 2nd &amp; 3rd Avenues) NY 10022",
+    "scheduleDetails": "",
+    "meetingInstances": [
+      {
+        "day": "Thursdays",
+        "startTime": 1815,
+        "endTime": 1915,
+        "meetingType": "OD = Open Discussion meeting",
+        "specialInterest": "",
+        "locationId": 5026
+      }
+    ],
+    "locationId": 5026,
+    "latitude": 40.6492925,
+    "longitude": -73.9225408
+  },
+  {
+    "address": "109 East 50th Street",
+    "meetingName": "WOMEN&apos;S ELEVENTH STEP - Women&apos;s Eleventh Step",
+    "meetingTitle": "",
+    "fullLocation": "109 East 50th Street, (Between Park &amp; Lexington) NY 10022",
+    "scheduleDetails": "11th Step, Anniv. 3rd Wednesday No Smoking",
+    "meetingInstances": [
+      {
+        "day": "Wednesdays",
+        "startTime": 1745,
+        "endTime": 1915,
+        "meetingType": "S = Step meeting",
+        "specialInterest": "",
+        "locationId": 5027
+      }
+    ],
+    "locationId": 5027,
+    "latitude": 40.7569178,
+    "longitude": -73.97309
+  }
+]
