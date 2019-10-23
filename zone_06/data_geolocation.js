@@ -17,8 +17,6 @@ var addresses = require("./results06.json");
 //     return elem.address
 //      })
 
-var geocodeData=[]
-
 
 //eachSeries in the async module iterates over an array and operates on each item in the array in series
 

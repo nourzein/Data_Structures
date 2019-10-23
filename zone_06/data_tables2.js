@@ -24,7 +24,7 @@ async.eachSeries(addressesForDb, function(value, callback) {
     // value.scheduleDetails.replace("'", "&apos;");
     const client = new Client(db_credentials);
     client.connect();
-    var thisQuery = "INSERT INTO AAMeetings VALUES (E'" + value.address + "', '" + value.meetingName + "', '" + value.meetingInstances + "', '" + value.meetingTitle + "', '" + value.fullLocation + "',  '" + value.scheduleDetails + "', " + value.locationId + ", " + value.latitude + ", " + value.longitude + ");"; //how to get into the object here?
+    var thisQuery = "INSERT INTO AAMeetings VALUES (E'" + value.address + "', '" + value.meetingName + "', '" + value.meetingTitle + "', '" + value.fullLocation + "',  '" + value.scheduleDetails + "', " + value.locationId + ", " + value.latitude + ", " + value.longitude + ");"; //how to get into the object here?
     client.query(thisQuery, (err, res) => {
         console.log(err, res);
         client.end();
