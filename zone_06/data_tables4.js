@@ -27,7 +27,7 @@ for ( var i=0; i< addressesForDb.length; i++) {
         myArray.push(meeting)
         )
 }
-console.log(myArray);
+console.log(addressesForDb);
 
         
 
@@ -35,21 +35,21 @@ console.log(myArray);
  //             return elem.meetingInstances });
 
 
-async.eachSeries(myArray, function(value, callback) {
-    // if (value.locationId !== 6001) return;
-    // value.scheduleDetails.replace("'", "&apos;");
-    const client = new Client(db_credentials);
-    client.connect();
+// async.eachSeries(myArray, function(value, callback) {
+//     // if (value.locationId !== 6001) return;
+//     // value.scheduleDetails.replace("'", "&apos;");
+//     const client = new Client(db_credentials);
+//     client.connect();
    
-    var thisQuery = "INSERT INTO AAMeetingInstances VALUES (E'" + value.day + "', " + value.startTime + ", " + value.endTime + " , '" + value.meetingType + "',  '" + value.specialInterest + "', " + value.locationId + ");"; 
-    client.query(thisQuery, (err, res) => {
-         console.log(err, res);
-        client.end();
-     });
+//     var thisQuery = "INSERT INTO AAMeetingInstances VALUES (E'" + value.day + "', " + value.startTime + ", " + value.endTime + " , '" + value.meetingType + "',  '" + value.specialInterest + "', " + value.locationId + ");"; 
+//     client.query(thisQuery, (err, res) => {
+//          console.log(err, res);
+//         client.end();
+//      });
        
-     setTimeout(callback, 1000); 
-    console.log(thisQuery)
- });
+//      setTimeout(callback, 1000); 
+//     console.log(thisQuery)
+//  });
 
 // for (let i=0; i<meetings.length; i++) {
 //     meetings[i]["locationId"]= id;
