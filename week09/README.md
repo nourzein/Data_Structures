@@ -69,3 +69,6 @@ Write information back into SQL table using getAndWriteData function.
     };
     // // write a new row of sensor data every five minutes
     setInterval(getAndWriteData, 60000);
+
+Check if table worked using pgAdmin: 
+![table for tempdata](https://github.com/nourzein/Data_Structures/blob/master/week09/table_tempData.png)
