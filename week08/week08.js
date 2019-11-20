@@ -18,6 +18,6 @@ void loop()
   float c = tempsensor.readTempC();
   //float f = (c * 9 / 5) + 32; 
 
-  tempvalue = c; 
+  tempvalue = c;  
   delay(500);
 }
