@@ -1,0 +1,29 @@
+html, body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color : pink;
+}
+
+h2 {
+    color: black;
+}
+#mapid { height: 100vh; }
+
+#sidebar {
+    width: 400px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color: rgba(0,0,0,.95);
+    z-index: 999;
+    color: #fff;
+    padding: 2rem;
+}
+
+.leaflet-marker-icon {
+    color: green;
+}
