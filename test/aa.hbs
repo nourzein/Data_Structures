@@ -19,6 +19,17 @@
     <p id="meet-name"></p>
 </div>
 
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Days</button>
+ 
+  <ul id="myDropdown" class="dropdown-content">
+    <li> <button onclick="findMondays()">Mondays</button> </li>
+  	 <li><button onclick="findTuesdays()">Tuesdays</button></li>
+  	 <li><button onclick="findWednesdays()">Wednesdays</button></li>
+  </ul> 
+    
+</div>
 <div id="mapid"></div>
 
 {{!--{{#blockofMeetings}}--}}
@@ -50,10 +61,42 @@
         L.marker( [data[i].latitude, data[i].longitude] ).bindPopup(data[i].meetingname).addTo(mymap);
         //._icon.style.backgroundColor = 'green'
     }
+ 
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}    
+
+
+
+//write function to get Mondays
+function findMondays() {
+   document.getElementById("mapid").innerHTML = "Hello World";
+   
+   
+  // var p = document.getElementsByClassName("product-item");
+  //   p.className = p.className + " un-select";
+  //   var searchValue = "Shoes";
+  //   for(var i = 0; i < p.length; i++){
+  //       if(p[i].innerHTML.indexOf(searchValue) > -1){
+           
+        }
+
     
-    
-    // on click -> fire function buildContent(passdatafromclick)
-    
+// on click -> fire function buildContent(passdatafromclick)
 let meetingName = [];
     function buildContent(data){
     // const sidebar = document.querySelector('#sidebar');

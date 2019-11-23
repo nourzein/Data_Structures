@@ -29,68 +29,26 @@ var dynamodb = new AWS.DynamoDB();
 // //Install Express
 var express = require('express'), // npm install express
     app = express();
-
-app.get('/sensor', function(req, res1) {
-    var templateVariables= { title: 'My Sensor Data', body: 'These are my temperatures in my room'};
-        //res.send('<h3>this is the page for my sensor data</h3>');  
-        
-    // Connect to the AWS RDS Postgres database
-    const client = new Client(db_credentials);
-    client.connect();
-    
-    var thisQuery = "SELECT * FROM sensorData;";
-    client.query(thisQuery, (err, res) => {
-        if (err) {throw err}
-        else {
-            
-            fs.readFile('./sensor.html', 'utf8', (error, data) => {
-                var template = handlebars.compile(data)
-                //console.log(templateVariables)
-                templateVariables.temperatures = res.rows;
-                //console.log(templateVariables)
-                var html = template(templateVariables)
-                res1.send(html)
-            // //console.table(res.rows);
-            // var rows= JSON.stringify(res.rows)
-            // res1.send(`<p> Rows ${rows} </p>`); 
-            //
-            
-            client.end();
-        });
-         client.end();
-        }
-    });
-
-});
-
 app.get('/aa',  function(req, res1) {
     //res.send('<h3>this is the page for my sensor data</h3>');  
     
     // Connect to the AWS RDS Postgres database
-   var templateVariables= {};
-
-  
+    var templateVariables= {};
     const client = new Client(db_credentials);
     client.connect();
     
-    var thisQuery = "SELECT * FROM aaallmeetings;";
-    client.query(thisQuery,   (err, res) => {
+var queryDay= "Mondays"
+
+var queryTime= 730
+    
+    var thisQuery = "SELECT latitude, longitude, address, json_agg(json_build_object('Meeting Name', meetingname, 'Meeting Title', meetingtitle, 'Day', day, 'Start Time', starttime,  'End Time', endtime, 'Metting Type', meetingtype, 'Special Interest', specialinterest, 'Address', fulllocation)) as meetings FROM aaallmeetings JOIN aaallmeetinginstances ON aaallmeetings.locationid = aaallmeetinginstances.locationid WHERE day=" +"'" + queryDay + "'"+ " AND starttime= " +  queryTime + " GROUP BY latitude, longitude, address;";
+    client.query(thisQuery, (err, res) => {
         if (err) {throw err}
         else {
             
             const data = res.rows;
             
             // start leaflet js
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
             
             fs.readFile('./aa.hbs', 'utf8', (error, myData) => {
                 var template = handlebars.compile(myData, data)
@@ -108,8 +66,38 @@ app.get('/aa',  function(req, res1) {
 });
 
 
+// app.get('/sensor', function(req, res1) {
+//     var templateVariables= { title: 'My Sensor Data', body: 'These are my temperatures in my room'};
+//         //res.send('<h3>this is the page for my sensor data</h3>');  
+        
+//     // Connect to the AWS RDS Postgres database
+//     const client = new Client(db_credentials);
+//     client.connect();
+    
+//     var thisQuery = "SELECT * FROM sensorData;";
+//     client.query(thisQuery, (err, res) => {
+//         if (err) {throw err}
+//         else {
+            
+//             fs.readFile('./sensor.html', 'utf8', (error, data) => {
+//                 var template = handlebars.compile(data)
+//                 //console.log(templateVariables)
+//                 templateVariables.temperatures = res.rows;
+//                 //console.log(templateVariables)
+//                 var html = template(templateVariables)
+//                 res1.send(html)
+//             // //console.table(res.rows);
+//             // var rows= JSON.stringify(res.rows)
+//             // res1.send(`<p> Rows ${rows} </p>`); 
+//             //
+            
+//             client.end();
+//         });
+//          client.end();
+//         }
+//     });
 
-
+// });
 
 //dear_diary query
 app.get('/processBlog', function(req, res1) {
@@ -136,7 +124,7 @@ app.get('/processBlog', function(req, res1) {
         console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
       } else {
              
-             fs.readFile('./pblog.html', 'utf8', (error, data) => {
+             fs.readFile('./pblog.hbs', 'utf8', (error, data) => {
                 var template = handlebars.compile(data)
                 //console.log(templateVariables)
                 templateVariables.blogPost = data2.Items
