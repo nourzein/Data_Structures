@@ -1,5 +1,6 @@
 # Assignment 10
 ## Goal: Create queries that will be used in the final web application.
+The web application URL: http://3.19.185.130:8080 
 
 ### AA Meetings Map
 
