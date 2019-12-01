@@ -1,11 +1,14 @@
-//console.log("test")
 const { Client } = require('pg');
 const dotenv = require('dotenv');
 dotenv.config();
 const handlebars = require('handlebars')
 const fs = require('fs')
+var express = require('express'), // npm install express
+    app = express();
+var path= require('path');
+var bodyParser= require('body-parser')
 
-
+var dir= __dirname;
 //Configure Photon
 var device_id = process.env.PHOTON_ID;
 var access_token = process.env.PHOTON_TOKEN;
@@ -26,42 +29,90 @@ AWS.config = new AWS.Config();
 AWS.config.region = "us-east-2";
 var dynamodb = new AWS.DynamoDB();    
 
-// //Install Express
-var express = require('express'), // npm install express
-    app = express();
 
-//aa query
-app.get('/aa',  function(req, res1) {
+//setup
+// app.engine('html', require('ejs').renderFile);
+// app.set('view engine', 'html');
+app.use(express.static(path.join(dir, '/public')));
+app.set('views', path.join(dir, 'public'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true })); 
+
+//route to render html file
+app.get('/aa', function(req, res) {
+    res.sendFile(dir +"/public/aa.html")
+    //res.render("aa.html")
+});
+    
+//route to query data
+app.post('/aaData',  function(req, res) {
     //res.send('<h3>this is the page for my sensor data</h3>');  
     // Connect to the AWS RDS Postgres database
-var templateVariables= {};
+// var templateVariables= {};
 
 const client = new Client(db_credentials);
 client.connect();
-var queryDay= "Mondays"
-var queryTime= 730
-    
-    var thisQuery = "SELECT latitude, longitude, address, json_agg(json_build_object('Meeting Name', meetingname, 'Meeting Title', meetingtitle, 'Day', day, 'Start Time', starttime,  'End Time', endtime, 'Metting Type', meetingtype, 'Special Interest', specialinterest, 'Address', fulllocation)) as meetings FROM aaallmeetings JOIN aaallmeetinginstances ON aaallmeetings.locationid = aaallmeetinginstances.locationid WHERE day=" +"'" + queryDay + "'"+ " AND starttime= " +  queryTime + " GROUP BY latitude, longitude, address;";
-    client.query(thisQuery, (err, res) => {
+
+var queryDay= req.body.queryDay
+// var [from, to]=req.body.queryTime.split(",");
+var queryTime= req.body.queryTime
+//queryTime= req.body.queryTime
+
+    var thisQuery = "SELECT latitude, longitude, address, json_agg(json_build_object('Meeting Name', meetingname, 'Meeting Title', meetingtitle, 'Day', day, 'Start Time', starttime,  'End Time', endtime, 'Metting Type', meetingtype, 'Special Interest', specialinterest, 'Address', fulllocation)) as meetings FROM aaallmeetings JOIN aaallmeetinginstances ON aaallmeetings.locationid = aaallmeetinginstances.locationid WHERE (1=1) " + queryDay +  queryTime + " GROUP BY latitude, longitude, address;";
+    client.query(thisQuery, (err, results) => {
         if (err) {throw err}
         else {
-            
-            const data = res.rows;
-            
+            const data = results.rows;
+            console.log(data)
+              client.end();
+              return res.json(data);
             // start leaflet js
-            
-            fs.readFile('./aa.hbs', 'utf8', (error, myData) => {
-                var template = handlebars.compile(myData, data)
-                // console.log(templateVariables)
-                templateVariables.blockofMeetings = data;
-                templateVariables.myData = JSON.stringify(data);
-                //console.log(templateVariables)
-                var html = template(templateVariables)
-                res1.send(html)
-            })
-
+            // fs.readFile('./aa.hbs', 'utf8', (error, myData) => {
+            //     var template = handlebars.compile(myData, data)
+            //     // console.log(templateVariables)
+            //     templateVariables.blockofMeetings = data;
+            //     templateVariables.myData = JSON.stringify(data);
+            //     //console.log(templateVariables)
+            //     var html = template(templateVariables)
+            //     res.send(html)
+            // })
+        
         }
-        client.end();
+        
+    });
+});
+
+app.get('/aaFullData',  function(req, res) {
+    //res.send('<h3>this is the page for my sensor data</h3>');  
+    // Connect to the AWS RDS Postgres database
+// var templateVariables= {};
+
+const client = new Client(db_credentials);
+client.connect();
+
+    var thisQuery = "SELECT latitude, longitude, address, json_agg(json_build_object('Meeting Name', meetingname, 'Meeting Title', meetingtitle, 'Day', day, 'Start Time', starttime,  'End Time', endtime, 'Meeting Type', meetingtype, 'Special Interest', specialinterest, 'Address', fulllocation)) as meetings FROM aaallmeetings JOIN aaallmeetinginstances ON aaallmeetings.locationid = aaallmeetinginstances.locationid GROUP BY latitude, longitude, address;";
+    
+    //DISTINCT latitude, longitude, address, locationid FROM aaallmeetings ;";
+    client.query(thisQuery, (err, results) => {
+        if (err) {throw err}
+        else {
+            const data = results.rows;
+            console.log(data)
+              client.end();
+              return res.json(data);
+            // start leaflet js
+            // fs.readFile('./aa.hbs', 'utf8', (error, myData) => {
+            //     var template = handlebars.compile(myData, data)
+            //     // console.log(templateVariables)
+            //     templateVariables.blockofMeetings = data;
+            //     templateVariables.myData = JSON.stringify(data);
+            //     //console.log(templateVariables)
+            //     var html = template(templateVariables)
+            //     res.send(html)
+            // })
+        
+        }
+        
     });
 });
 

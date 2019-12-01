@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script   src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
+    <title>AA</title>
+</head>
+<body>
+  <script>
+      $.ajax({
+ 				url: "iveTabImages",
+ 				type: "post",
+ 				data: {
+ 					job_id: TV.key4id,
+ 					fileinfo: data
+ 				},
+ 				dataType: "json"
+ 			})
+ 				.done(result => {
+ 					resolve(result);
+ 				})
+ 				.fail((request, status, error) => {
+ 					alert(
+ 						"setArchiveForTabImages failure: " +
+ 						status +
+ 						" " +
+ 						JSON.stringify(error)
+ 					);
+ 					reject(error);
+ 				});
+  </script>
+    
+</body>
+
+</html>

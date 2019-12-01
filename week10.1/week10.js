@@ -70,24 +70,24 @@ app.get('/sensor', function(req, res1) {
 
 
 //My app will use a day and time query. This query is to Mondays at 7:30, but the for the final I will make it dynamic based on buttons pressed on the app (that is why I have the variable queryData, but never got around to creating it this week).
-app.get('/aa', function(req, res) {
-    res.render("aa.html")
+app.get('/aa', function(req, res1) {
+    
 //not used yet- but will include in query for final
-// var queryDay= 'Mondays'
+var queryDay= 'Mondays'
 
-// // Connect to the AWS RDS Postgres database
-//     const client = new Pool(db_credentials);
-//     client.connect();
-// var thisQuery = "SELECT latitude, longitude, address, json_agg(json_build_object('Meeting Name', meetingname, 'Meeting Title', meetingtitle, 'Day', day, 'Start Time', starttime,  'End Time', endtime, 'Metting Type', meetingtype, 'Special Interest', specialinterest, 'Address', fulllocation)) as meetings FROM aaallmeetings JOIN aaallmeetinginstances ON aaallmeetings.locationid = aaallmeetinginstances.locationid WHERE day= 'Mondays' AND starttime= 730 GROUP BY latitude, longitude, address;";
-//     client.query(thisQuery, (err, res) => {
-//         if (err) {throw err}
-//         else {
-//             console.table(res.rows);
-//             var filteredData= JSON.stringify(res.rows)
-//             res1.send(`<p> Meetings on Mondays at 7:30 in the morning ${filteredData} </p>`); 
-//             client.end();
-//         }
-//     });
+// Connect to the AWS RDS Postgres database
+    const client = new Pool(db_credentials);
+    client.connect();
+var thisQuery = "SELECT latitude, longitude, address, json_agg(json_build_object('Meeting Name', meetingname, 'Meeting Title', meetingtitle, 'Day', day, 'Start Time', starttime,  'End Time', endtime, 'Metting Type', meetingtype, 'Special Interest', specialinterest, 'Address', fulllocation)) as meetings FROM aaallmeetings JOIN aaallmeetinginstances ON aaallmeetings.locationid = aaallmeetinginstances.locationid WHERE day= 'Mondays' AND starttime= 730 GROUP BY latitude, longitude, address;";
+    client.query(thisQuery, (err, res) => {
+        if (err) {throw err}
+        else {
+            console.table(res.rows);
+            var filteredData= JSON.stringify(res.rows)
+            res1.send(`<p> Meetings on Mondays at 7:30 in the morning ${filteredData} </p>`); 
+            client.end();
+        }
+    });
 });
 
 
