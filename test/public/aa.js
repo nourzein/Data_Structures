@@ -5,10 +5,27 @@ let queryDay = "AND (1=1)";
 let queryTime = "AND (1=1)";
 
 function handleData () {
-    $(".day").on("click", function (event) {
+   
+//submit button with fullQuery function    
+//  $("#submit").on("click", fullQuery); 
+
+//add map tiles
+ initMap()    
+
+//draw full data (default view)
+    $.get({
+        url:"/aaFullData", 
+        success: drawMap //draw map using full dataset 
+    })
+ 
+ //when click, update data on map and draw map again   
+ $(".day").on("click", function (event) {
         let queryDayVal = $(this).val()
       queryDay= "AND day = '" + queryDayVal + "'";
-      updateMap();
+      
+   $('.day').removeClass('active');
+   $(this).addClass('active');
+    updateData();
         //clear pervious points
     });
        
@@ -19,22 +36,14 @@ function handleData () {
        console.log(time1,time2);
        queryTime = "AND starttime BETWEEN " +time1+ " AND " + time2;
        console.log(queryTime);
-       updateMap();
+       $('.time').removeClass('active');
+       $(this).addClass('active'); 
+       updateData();
+       
     //   queryTime= "AND starttime BETWEEN" + queryTimeOne + " AND " + queryTimeTwo;
         //console.log(day)
         //clear pervious points
-    });
-//submit button with fullQuery function    
-//  $("#submit").on("click", fullQuery); 
-
- initMap()    
-    //     );
-    $.get({
-        url:"/aaFullData", 
-        success: drawMap
-    })
-    
-    
+    });    
     
     showMeetings()
 }
@@ -64,49 +73,41 @@ function initMap () {
 
 //map for drawing new filtered data
 function drawMap(data) {
-// 
 var uniqueLatLong=[];
 // // first remove all the markers in one go
    layerGroup.clearLayers();
 //check for unique lat and long    
-    
     console.log(data)
     for (var i=0; i<data.length; i++) {
         let item= data[i];
-    //     let found= uniqueLatLong.find(
-    //         (latlong)=> {
-    //             return latlong.latitude===item.latitude && latlong.longitude===item.longitude
-    //         }
-    //         );
-           
-    //     if (found){
-    //             found.count++;
-    //           //  console.log(found.count)
-    //         }
-    //         else {
-    //             uniqueLatLong.push({
-    //                 latitude:item.latitude,
-    //                 longitude:item.longitude, 
-                    //   locationId=item.locationid
-    //               
-    // }
-    
-                       
-    //                 count: 1
-    //             }) 
-    //         }
-            
-    //     //add makers for lat and long of filtered data 
-    // }
-    // uniqueLatLong.forEach(
-    //     (item)=> {
+        let found= uniqueLatLong.find(
+            (latlong)=> {
+                return latlong.latitude===item.latitude && latlong.longitude===item.longitude
+            }
+            );
+        if (found){
+                found.count++;
+              //  console.log(found.count)
+            }
+            else {
+                uniqueLatLong.push({
+                    latitude:item.latitude,
+                    longitude:item.longitude, 
+                     locationId:item.locationid
+                  });
+                    count: 1
+                } 
+    }          
+        //add makers for lat and long of filtered data 
+    uniqueLatLong.forEach(
+        (item)=> {
     //         console.log(item.latitude)
             L.marker( [item.latitude, item.longitude] )
         //.bindPopup(data[i].meetingname)
         .addTo(layerGroup)
         .on("click", ()=> showMeetings(item)) 
         }
-        //)
+        )
     
         //._icon.style.backgroundColor = 'green'
     console.log(uniqueLatLong)
@@ -122,12 +123,11 @@ function showDropdown() {
 function showDropdownTwo() {
  $("#myDropdown2").show();
 }
-function Highlight(button) {
-   $(".Highlight").removeClass("Highlight");
-   $(button).addClass("Highlight");
-}
 
-function updateMap() {
+
+
+
+function updateData() {
     console.log(queryTime,queryDay);
     $.post({
         url:"/aaData", 
@@ -140,13 +140,19 @@ function updateMap() {
     // console.log(data)
 }
 
+// function displayMeetings(data) {
+//      alert(JSON.stringify(data.meetings))
+// }
 
-function showMeetings(data) {
-    
-//  document.getElementById(
-//       "meetings").innerHTML =`${data.meetingInstances}`
-     alert(JSON.stringify(data.meetings))
-}
+function showMeetings() {
+//     $.post({
+//         url:"/aaMeetings",
+//         success: displayMeetings
+//     });
+// }
+
+     alert(JSON.stringify(data.meetings)) }
+
 //     ).innerHTML = `Over the last month, there have been <span class="events">${
 //       magnitudes.length
 //     }</span> significant earthquakes with an average magnitude of <span class="mag">${avgMag.toFixed(
