@@ -152,31 +152,3 @@ function showMeetings() {
 // }
 
      alert(JSON.stringify(data.meetings)) }
-
-//     ).innerHTML = `Over the last month, there have been <span class="events">${
-//       magnitudes.length
-//     }</span> significant earthquakes with an average magnitude of <span class="mag">${avgMag.toFixed(
-//       2
-//     )}</span> and an average depth of <span class="depth">${avgDepth.toFixed(
-//       2
-//     )}</span>.`;
-
-//     counter.innerHTML = `[ – / ${magnitudes.length}]`;
-//   }
-
-
-
-
-// Close the dropdown menu if the user clicks outside of it
-// window.onclick = function(event) {
-//   if (!event.target.matches('.dropbtn')) {
-//     var dropdowns = document.getElementsByClassName("dropdown-content1");
-//     var i;
-//     for (i = 0; i < dropdowns.length; i++) {
-//       var openDropdown = dropdowns[i];
-//       if (openDropdown.classList.contains('show')) {
-//         openDropdown.classList.remove('show');
-//       }
-//     }
-//   }
-// }    
