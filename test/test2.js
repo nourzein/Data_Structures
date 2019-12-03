@@ -93,7 +93,7 @@ client.connect();
         if (err) {throw err}
         else {
             const data = results.rows;
-            console.log(data)
+            // console.log(data)
               client.end();
               return res.json(data);
         
@@ -111,12 +111,12 @@ app.get('/aaFullData',  function(req, res) {
 const client = new Client(db_credentials);
 client.connect();
 
-    var thisQuery = "SELECT DISTINCT latitude, longitude, address, locationid FROM aaallmeetings ;";
+    var thisQuery = "SELECT DISTINCT latitude, longitude, address FROM aaallmeetings ;";
     client.query(thisQuery, (err, results) => {
         if (err) {throw err}
         else {
             const data = results.rows;
-            console.log(data)
+            // console.log(data)
               client.end();
               return res.json(data);
             // start leaflet js

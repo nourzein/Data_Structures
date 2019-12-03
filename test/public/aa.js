@@ -33,9 +33,9 @@ function handleData () {
        let times = $(this).val().split(',');
        let time1 = +times[0];
        let time2 = +times[1];
-       console.log(time1,time2);
+    //   console.log(time1,time2);
        queryTime = "AND starttime BETWEEN " +time1+ " AND " + time2;
-       console.log(queryTime);
+    //   console.log(queryTime);
        $('.time').removeClass('active');
        $(this).addClass('active'); 
        updateData();
@@ -76,8 +76,9 @@ function drawMap(data) {
 var uniqueLatLong=[];
 // // first remove all the markers in one go
    layerGroup.clearLayers();
-//check for unique lat and long    
+//check for unique lat and long   
     console.log(data)
+    console.log("blue")
     for (var i=0; i<data.length; i++) {
         let item= data[i];
         let found= uniqueLatLong.find(
@@ -93,7 +94,8 @@ var uniqueLatLong=[];
                 uniqueLatLong.push({
                     latitude:item.latitude,
                     longitude:item.longitude, 
-                     locationId:item.locationid
+                    //  locationId:item.locationid
+                     meetings: item.meetings
                   });
                     count: 1
                 } 
@@ -140,15 +142,15 @@ function updateData() {
     // console.log(data)
 }
 
-function displayMeetings(data) {
-     alert(JSON.stringify(data.meetings))
-}
+// function displayMeetings(data) {
+//      alert(JSON.stringify(data.meetings))
+// }
 
-function showMeetings() {
-    $.post({
-        url:"/aaMeetings",
-        success: displayMeetings
-    });
-}
+function showMeetings(data) {
+//     $.post({
+//         url:"/aaMeetings",
+//         success: displayMeetings
+//     });
+// }
 
-    //  alert(JSON.stringify(data.meetings)) }
+     alert(JSON.stringify(data.meetings)) }
