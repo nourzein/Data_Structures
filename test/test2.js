@@ -88,7 +88,7 @@ app.post('/aaMeetings',  function(req, res) {
 const client = new Client(db_credentials);
 client.connect();
 
-    var thisQuery = "SELECT DISTINCT latitude, longitude, address, json_agg(json_build_object('Meeting Name', meetingname, 'Meeting Title', meetingtitle, 'Day', day, 'Start Time', starttime,  'End Time', endtime, 'Metting Type', meetingtype, 'Special Interest', specialinterest, 'Address', fulllocation)) as meetings FROM aaallmeetings JOIN aaallmeetinginstances ON aaallmeetings.locationid = aaallmeetinginstances.locationid WHERE (1=1) GROUP BY latitude, longitude, address;";
+    var thisQuery = "SELECT latitude, longitude, address, json_agg(json_build_object('Meeting Name', meetingname, 'Meeting Title', meetingtitle, 'Day', day, 'Start Time', starttime,  'End Time', endtime, 'Metting Type', meetingtype, 'Special Interest', specialinterest, 'Address', fulllocation)) as meetings FROM aaallmeetings JOIN aaallmeetinginstances ON aaallmeetings.locationid = aaallmeetinginstances.locationid WHERE (1=1) GROUP BY latitude, longitude, address;";
     client.query(thisQuery, (err, results) => {
         if (err) {throw err}
         else {
@@ -96,16 +96,6 @@ client.connect();
             console.log(data)
               client.end();
               return res.json(data);
-            // start leaflet js
-            // fs.readFile('./aa.hbs', 'utf8', (error, myData) => {
-            //     var template = handlebars.compile(myData, data)
-            //     // console.log(templateVariables)
-            //     templateVariables.blockofMeetings = data;
-            //     templateVariables.myData = JSON.stringify(data);
-            //     //console.log(templateVariables)
-            //     var html = template(templateVariables)
-            //     res.send(html)
-            // })
         
         }
         

@@ -140,15 +140,15 @@ function updateData() {
     // console.log(data)
 }
 
-// function displayMeetings(data) {
-//      alert(JSON.stringify(data.meetings))
-// }
+function displayMeetings(data) {
+     alert(JSON.stringify(data.meetings))
+}
 
 function showMeetings() {
-//     $.post({
-//         url:"/aaMeetings",
-//         success: displayMeetings
-//     });
-// }
+    $.post({
+        url:"/aaMeetings",
+        success: displayMeetings
+    });
+}
 
-     alert(JSON.stringify(data.meetings)) }
+    //  alert(JSON.stringify(data.meetings)) }
