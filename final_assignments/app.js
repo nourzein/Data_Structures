@@ -166,7 +166,7 @@ app.get('/sensor', function(req, res1) {
          //res.send(data)
         data2.Items.forEach(function(item){
             
-        templateVariables.blogpost.push({'topic':item.topic.S, 'title':item.title.S, 'date':format(parseISO(item.dt.S), 'MM/dd/yyyy'), 'entry':item.entry.S});
+        templateVariables.blogpost.push({'topic':item.topic.S, 'title':item.title.S, 'date':format(parseISO(item.dt.S), 'MMMM dd, yyyy'), 'entry':item.entry.S});
         })
           
           fs.readFile('./dd.hbs', 'utf8', (error, data) => {

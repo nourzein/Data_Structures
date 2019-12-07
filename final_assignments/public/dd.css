@@ -3,7 +3,7 @@ html {
 }
 
 .intro {
-    padding: 40px;
+    padding: 36px;
     font-size: 1.7rem;
     width: 25%;
     font-family: Comic Sans MS;
@@ -26,11 +26,12 @@ select {
     
 }
 .dropdown {
+ 
     background-color: antiquewhite;
     font-family: Comic Sans MS;
     font-size: 1.5rem;
     display: block;
-    
+    margin-bottom: 2em
 }
 
 .content{
