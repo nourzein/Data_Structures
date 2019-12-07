@@ -71,8 +71,19 @@ function initMap () {
     layerGroup = L.layerGroup().addTo(mymap);
 }
 
+
+
+
+
 //map for drawing new filtered data
 function drawMap(data) {
+    var image= L.icon ({
+        iconUrl: 'pink_marker.png',
+        iconSize: [55, 52],
+        iconAnchor: [0, 26],
+        popupAnchor: [35, -26]
+    });
+        
 var uniqueLatLong=[];
 // // first remove all the markers in one go
    layerGroup.clearLayers();
@@ -104,8 +115,8 @@ var uniqueLatLong=[];
     uniqueLatLong.forEach(
         (item)=> {
     //         console.log(item.latitude)
-            L.marker( [item.latitude, item.longitude] )
-        //.bindPopup(data[i].meetingname)
+            L.marker( [item.latitude, item.longitude], {icon: image} )
+        // .bindPopup(item.meetings)
         .addTo(layerGroup)
         .on("click", ()=> showMeetings(item)) 
         }
@@ -147,10 +158,27 @@ function updateData() {
 // }
 
 function showMeetings(data) {
-//     $.post({
-//         url:"/aaMeetings",
-//         success: displayMeetings
-//     });
-// }
+   
+    
+    
+  var text="";
+   
+  data.meetings.forEach(item => {
+      text+= item["Meeting Name"]+ ","+ item["Meeting Title"]+ "<br>"
+      text+= item["Metting Type"] + "<br>"
+      text+= item["Day"] + "<br>"
+      text+= item["Start Time"] + "-" +item["End Time"] + "<br>"
+      text+= item["Special Interest"] + "<br>"
+      text+= item["Address"] + "<br>"
+  })
+    $(".meetings").html(text)
+    
+// //     $.post({
+// //         url:"/aaMeetings",
+// //         success: displayMeetings
+// //     });
+// // }
 
-     alert(JSON.stringify(data.meetings)) }
+    //  alert(JSON.stringify(data.meetings)) 
+    
+}

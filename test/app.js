@@ -8,6 +8,8 @@ var express = require('express'), // npm install express
 var path= require('path');
 var bodyParser= require('body-parser')
 
+const { format, parseISO } =require('date-fns')
+
 var dir= __dirname;
 //Configure Photon
 var device_id = process.env.PHOTON_ID;
@@ -31,7 +33,6 @@ var dynamodb = new AWS.DynamoDB();
 
 
 //setup
-// app.engine('html', require('ejs').renderFile);
 // app.set('view engine', 'html');
 app.use(express.static(path.join(dir, '/public')));
 app.set('views', path.join(dir, 'public'));
@@ -129,9 +130,7 @@ client.connect();
             //     var html = template(templateVariables)
             //     res.send(html)
             // })
-        
         }
-        
     });
 });
 
@@ -170,45 +169,57 @@ client.connect();
 // });
 
 //dear_diary query
-app.get('/processBlog', function(req, res1) {
-    
- var templateVariables= {};
+//ask if req.query is the same as body parser 
+  
+ app.get('/dd', function(req, res1) {
+ 
+ var templateVariables= {}; 
+ templateVariables.blogpost = [];
+ var topic = 'Data Structures Homework' // default category
+ var date;
+ var entry;
+ 
+  if (req.query.topic){
+    topic = req.query.topic
+  }
+  console.log(topic)
  
     var params = {
-        TableName : "Dear_Diary",
+        TableName : "Dear_Diary2",
         KeyConditionExpression: 
         "#tp = :topicName and dt between :minDate and :maxDate", // the query expression
         ExpressionAttributeNames: { // name substitution, used for reserved words in DynamoDB
             "#tp" : "topic"
         },
         ExpressionAttributeValues: { // the query values
-            ":topicName": { S: "Data Structures Homework"},
-            ":minDate": {S: new Date("September 26, 2019").toLocaleString()},
-            ":maxDate": {S: new Date("September 28, 2019").toLocaleString()}
+            ":topicName": { S: topic},
+            ":minDate": {S: new Date("August 28, 2019").toISOString()},
+            ":maxDate": {S: new Date("November 11, 2019").toISOString()}
         }
     };
-    dynamodb.query(params, function(err, data2) {
+    
+     dynamodb.query(params, function(err, data2) {
       if (err) {
-        console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
+          console.log('there was an error')
       } else {
-             
-             fs.readFile('./pblog.hbs', 'utf8', (error, data) => {
+        // the information you want to send back to the browser goes in the res.send(). It can either be html (created either manually or via handlebars) or just JSON data.
+        // in this example it is the data from the database query
+         //res.send(data)
+        data2.Items.forEach(function(item){
+            
+        templateVariables.blogpost.push({'topic':item.topic.S, 'title':item.title.S, 'date':format(parseISO(item.dt.S), 'MM/dd/yyyy'), 'entry':item.entry.S});
+        })
+          
+          fs.readFile('./dd.hbs', 'utf8', (error, data) => {
                 var template = handlebars.compile(data)
                 //console.log(templateVariables)
-                templateVariables.blogPost = data2.Items
                 console.log(templateVariables)
                 var html = template(templateVariables)
                 res1.send(html)
             })
-         
-        // console.log("Query succeeded.");
-        // res1.send(JSON.stringify(data.Items, null, 4));
-        // .forEach(function(item) {
-        //   console.log("***** ***** ***** ***** ***** \n", item);
-        // });
       }
-    });
-
+  });
+ 
 });
 
 // serve static files in /public

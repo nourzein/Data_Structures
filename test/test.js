@@ -46,15 +46,16 @@ var queryTime= 730
         if (err) {throw err}
         else {
             
-            const data = res.rows;
+            // const data = res.rows;
+            // console.log(data)
             
             // start leaflet js
             
-            fs.readFile('./aa.hbs', 'utf8', (error, myData) => {
-                var template = handlebars.compile(myData, data)
+            fs.readFile('./aa.hbs', 'utf8', (error, data) => {
+                var template = handlebars.compile( data)
                 // console.log(templateVariables)
-                templateVariables.blockofMeetings = data;
-                templateVariables.myData = JSON.stringify(data);
+                templateVariables.blockofMeetings = res.rows;
+                // templateVariables.myData = JSON.stringify(data);
                 //console.log(templateVariables)
                 var html = template(templateVariables)
                 res1.send(html)
