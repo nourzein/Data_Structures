@@ -1,0 +1,94 @@
+html, body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color : pink;
+}
+
+h2 {
+    color: black;
+}
+#mapid { height: 100vh; z-index: 9}
+
+#sidebar {
+    width: 400px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color: rgba(0,0,0,.95);
+    z-index: 99;
+    color: #fff;
+    padding: 2rem;
+}
+
+#meet-name {
+    color: white;
+}
+
+/*.leaflet-marker-icon {*/
+/*    color: green;*/
+/*}*/
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #e637ba;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  margin:0px;
+  
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #ff00bf;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  z-index: 999;
+  right:0;
+  /*background-color: #e69a37;*/
+  width: 200px;
+  height: 200px;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ff00bf;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  color: white;
+ margin: 0px;
+  /*z-index: 1;*/
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin:0px;
+}
+
+ ul {
+  list-style-type: circle;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
