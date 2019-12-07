@@ -1,6 +1,7 @@
 $(function(){
  
     // this is jQuery! it listens for any time the user changes the drop down menu and when it does it calls the getResults() function.
+
     $('select').change(function() {
         getResults()
     });
