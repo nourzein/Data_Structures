@@ -6,25 +6,37 @@
 
 body {
   font: 10px sans-serif;
+  background-color: black;
 }
 
 .axis path,
 .axis line {
   fill: none;
-  stroke: #000;
+  stroke: white;
   shape-rendering: crispEdges;
+  /*stroke-width: 1px;*/
+  /*fill: white;*/
+  /*display: none;*/
 }
 
 .bar {
-  fill: orange;
+  fill: rgb(237, 30, 121);
 }
 
 .bar:hover {
   fill: orangered ;
+  /*stroke: white;*/
+  /*stroke-width: 5px;*/
 }
 
-.x.axis path {
+
+.x path {
   display: none;
+}
+
+.x {
+  stroke: white;
+  stroke-width: 1px;
 }
 
 .d3-tip {
@@ -57,38 +69,59 @@ body {
 </style>
 <body>
 <script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/d3-time.v1.min.js"></script>
+<script src="https://d3js.org/d3-time-format.v2.min.js"></script>
 <script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 <script>
 
-var data = {{{sensordata}}} ; 
+var data = {{{sensordata}}}; 
+const formatTime = d3.timeFormat("%B %d, %Y");
+
+function formatDate(month, day) {
+  const myDate = new Date(`2019-${month}-${day}`);
+  return formatTime(myDate)
+}
+    
+
 console.log(data)
 var margin = {top: 40, right: 20, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 var formatPercent = d3.format(".0%");
+var formatDecimal= d3.format(".3n");	
 
+// data = data.map(function(d){
+//           return { date : d3.timeParse("%Y-%m-%dT%H")(d.sensoryear + '-' + d.sensormonth + '-' + d.sensorday + 'T' + d.sensorhour), value : d.temp_value }
+//         })
+    
 var x = d3.scale.ordinal()
     .rangeRoundBands([0, width], .1);
 
 var y = d3.scale.linear()
     .range([height, 0]);
+    
+    
+  x.domain(data.map(function(d) { return formatDate(d.sensormonth, d.sensorday); }));
+  y.domain([0, d3.max(data, function(d) { return d.num_obs; })]);
 
 var xAxis = d3.svg.axis()
     .scale(x)
-    .orient("bottom");
+    .orient("bottom")
+    .tickValues(x.domain().filter(function(d, i) { return !(i % 3); }));
+    
 
 var yAxis = d3.svg.axis()
     .scale(y)
-    .orient("left")
-    .tickFormat(formatPercent);
+    .orient("left");
+    // .tickFormat(formatPercent);
 
 var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
   .html(function(d) {
-    return "<strong>Percentage:</strong> <span style='color:red'>" + formatPercent(d.num_obs) + "</span>";
-  })
+    return "<strong>Average Temperature:</strong> <span style='color:white'>" + formatDecimal(d.num_obs) + "</span>"
+  });
 
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -98,32 +131,48 @@ var svg = d3.select("body").append("svg")
 
 svg.call(tip);
 
-  x.domain(data.map(function(d) { return d.sensorday; }));
-  y.domain([0, d3.max(data, function(d) { return d.num_obs; })]);
+
+
+
+  // x.domain(data.map(function(d) { return d.sensorday; }));
+
 
   svg.append("g")
       .attr("class", "x axis")
+      // .attr("fill", "white")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis);
 
   svg.append("g")
       .attr("class", "y axis")
+      // .attr("fill", "white")
       .call(yAxis)
     .append("text")
       .attr("transform", "rotate(-90)")
-      .attr("y", 6)
+      .attr("y", -40)
+      .attr("x", -110)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("Percentage");
+      .text("Average Temperature Per Day")
+      .style("fill", "white");
 
   svg.selectAll(".bar")
       .data(data)
     .enter().append("rect")
       .attr("class", "bar")
-      .attr("x", function(d) { return x(d.sensorday); })
+      .attr("x", function(d) { return x(formatDate(d.sensormonth, d.sensorday)); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.num_obs); })
       .attr("height", function(d) { return height - y(d.num_obs); })
       .on('mouseover', tip.show)
-      .on('mouseout', tip.hide)
+      .on('mouseout', tip.hide);
+      
+      
+
+        
+      // console.log(formatTime(new Date(`2019-${data[0].sensormonth}-${data[0].sensorday}`)));
+      
+      
+
+      
 </script>>
