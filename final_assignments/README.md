@@ -58,6 +58,6 @@ My color choice was a mixture of taste (I like pink) and context (I used vibrant
 There is a tooltip to give additional information about the average temperature in that hour (I collected data per minute, but minute data was not necessary).
 ![temp_1](https://github.com/nourzein/Data_Structures/blob/master/final_assignments/temp_1.png)
 ![temp_2](https://github.com/nourzein/Data_Structures/blob/master/final_assignments/temp_2.png)
-![temp_video](https://github.com/nourzein/Data_Structures/blob/master/final_assignments/temp_video_screenshot.png)(https://vimeo.com/user106195632/review/379469232/cd39fc9643)
+[![temp_video](https://github.com/nourzein/Data_Structures/blob/master/final_assignments/temp_video_screenshot.png)](https://vimeo.com/user106195632/review/379469232/cd39fc9643)
 
 
