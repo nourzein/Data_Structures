@@ -31,7 +31,7 @@ The user needs the location of the meeting, with the information regarding that 
 ![deafult_view](https://github.com/nourzein/Data_Structures/blob/master/final_assignments/aa_1.png)
 
 This is why I chose to do a day and time filter, but kept the other information as a sidebar pop up. It makes the interfarce more focused and does not overwhelm the user with choices.
-![filter_view_video]
+[![filter_view_video](https://github.com/nourzein/Data_Structures/blob/master/final_assignments/aa_video_screenshot.png)](https://vimeo.com/user106195632/review/379468386/8519f545bc)
 
 ### What do the map markers represent and how is the data being queried?
 The map markers represent one distict location that contains multiple meetings. The way the site is set up is redundant with multiple meetings in one location with one meeting name, but then the same location with another set of meetings and a different meeting name. 
@@ -46,6 +46,7 @@ I can add as many drop down options as I want, it will not affect the visualizat
 I used NoSQL for this project because the data to be queried and demontrated is in "blocks" so to speak. You would never want to just query titles, or dates, or words. The functionality is about reading a block of blog post in an orderly fashion.
 ![dd](https://github.com/nourzein/Data_Structures/blob/master/final_assignments/dd_1.png)
 ![dd_2](https://github.com/nourzein/Data_Structures/blob/master/final_assignments/dd_2.png)
+[![dd_video](https://github.com/nourzein/Data_Structures/blob/master/final_assignments/dd_video_screenshot.png)](https://vimeo.com/user106195632/review/379468825/8072046f84)
 
 # Temperature Sensor
 For this project, we had to use a photon to measure the temperature over a period of time and then visualize the data. 
@@ -55,4 +56,6 @@ My color choice was a mixture of taste (I like pink) and context (I used vibrant
 There is a tooltip to give additional information about the average temperature in that hour (I collected data per minute, but minute data was not necessary).
 ![temp_1](https://github.com/nourzein/Data_Structures/blob/master/final_assignments/temp_1.png)
 ![temp_2](https://github.com/nourzein/Data_Structures/blob/master/final_assignments/temp_2.png)
+![temp_video](https://github.com/nourzein/Data_Structures/blob/master/final_assignments/temp_video_screenshot.png)(https://vimeo.com/user106195632/review/379469232/cd39fc9643)
+
 
