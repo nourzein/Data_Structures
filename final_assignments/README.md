@@ -28,7 +28,8 @@ My tools were first and formost: AWS and Node.js, and then:
 
 ### What information does the user need and why?
 The user needs the location of the meeting, with the information regarding that meeting (day and time firstly, then type and special interests). 
-![deafult_view]
+![deafult_view](https://github.com/nourzein/Data_Structures/blob/master/final_assignments/aa_1.png)
+
 This is why I chose to do a day and time filter, but kept the other information as a sidebar pop up. It makes the interfarce more focused and does not overwhelm the user with choices.
 ![filter_view_video]
 
@@ -43,7 +44,8 @@ I personalized the website design the way I like: I used pink and a more retro a
 The site does not show any data in its default view and therefore runs very fast. The data is only queried in the drop down menu, again making the application fast since there is no data load.
 I can add as many drop down options as I want, it will not affect the visualization or functionality. 
 I used NoSQL for this project because the data to be queried and demontrated is in "blocks" so to speak. You would never want to just query titles, or dates, or words. The functionality is about reading a block of blog post in an orderly fashion.
-![dd]
+![dd](https://github.com/nourzein/Data_Structures/blob/master/final_assignments/dd_1.png)
+![dd_2](https://github.com/nourzein/Data_Structures/blob/master/final_assignments/dd_2.png)
 
 # Temperature Sensor
 For this project, we had to use a photon to measure the temperature over a period of time and then visualize the data. 
@@ -51,5 +53,6 @@ I measured the temperature in my bedroom right next to my window. I stored the d
 I used a bar graph to show the data. It seemed effecient and easy to read. For the future, I think I would use a line graph however- line graphs would more easily demonstrate trends. 
 My color choice was a mixture of taste (I like pink) and context (I used vibrant colors, pink and red to show temperature). 
 There is a tooltip to give additional information about the average temperature in that hour (I collected data per minute, but minute data was not necessary).
-
+![temp_1](https://github.com/nourzein/Data_Structures/blob/master/final_assignments/temp_1.png)
+![temp_2](https://github.com/nourzein/Data_Structures/blob/master/final_assignments/temp_2.png)
 
