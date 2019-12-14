@@ -36,7 +36,7 @@ top: 180px;
 
 }
 .dropbtn {
-  background-color: #fe02fe;
+  background-color: #b200e3;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -51,8 +51,8 @@ top: 180px;
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #fe02fe;
-  border-color: #fc03a1;
+  background-color: #b200e3;
+  border-color: #b200e3;
    border-width: 5px;
 }
 
@@ -67,12 +67,12 @@ top: 180px;
 /*  border-width: 5px;*/
 /*}*/
 .day.active{
-    border-color: #fe02fe;
+    border-color: #b200e3;
   border-width: 5px;
 }
 
 .time.active{
-    border-color: #fe02fe;
+    border-color:#b200e3;
   border-width: 5px;
 }
 
@@ -164,7 +164,7 @@ top: 180px;
 
  ul {
   list-style-type: circle;
-  color: pink;
+  color: #fe02fe;
   /*stroke-color: pink;*/
   
 }

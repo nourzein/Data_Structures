@@ -77,12 +77,20 @@ function initMap () {
 
 //map for drawing new filtered data
 function drawMap(data) {
-    var image= L.icon ({
-        iconUrl: 'pink_marker.png',
-        iconSize: [55, 52],
-        iconAnchor: [0, 26],
-        popupAnchor: [35, -26]
-    });
+    var violetIcon = new L.Icon({
+  iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+  iconSize: [15, 25],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [21, 21]
+});
+    // var image= L.icon ({
+    //     iconUrl: 'pink_marker.png',
+    //     iconSize: [55, 52],
+    //     iconAnchor: [0, 26],
+    //     popupAnchor: [35, -26]
+    // });
         
 var uniqueLatLong=[];
 // // first remove all the markers in one go
@@ -115,7 +123,7 @@ var uniqueLatLong=[];
     uniqueLatLong.forEach(
         (item)=> {
     //         console.log(item.latitude)
-            L.marker( [item.latitude, item.longitude], {icon: image} )
+            L.marker( [item.latitude, item.longitude], {icon: violetIcon})
         // .bindPopup(item.meetings)
         .addTo(layerGroup)
         .on("click", ()=> showMeetings(item)) 
