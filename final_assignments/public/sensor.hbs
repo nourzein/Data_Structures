@@ -108,7 +108,7 @@ var y = d3.scale.linear()
 var xAxis = d3.svg.axis()
     .scale(x)
     .orient("bottom")
-    .tickValues(x.domain().filter(function(d, i) { return !(i % 3); }));
+    .tickValues(x.domain().filter(function(d, i) { return !(i % 3); })); //tick values versus tick format
     
 
 var yAxis = d3.svg.axis()
